@@ -66,7 +66,7 @@
       {
         "employer": "Oniric Pixel",
         "url": "http://www.oniricpixel.com.br",
-        "position": "Founder and Developer",
+        "position": "Co-Founder and Developer",
         "start": "2015-04",
         "keywords": ["Unity 3D"],
         "highlights": [
@@ -115,7 +115,7 @@
         "name": "Game Development",
         "level": "master",
         "skills": [
-          "C++", "SDL", "C#", "Unity 3D", "JavaScript"
+          "C++", "Unity 3D", "JavaScript", "SDL"
         ]
       },
       {

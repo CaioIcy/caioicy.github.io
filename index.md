@@ -8,7 +8,7 @@ My interests generally lie on software development, specifically on **game devel
 
 ## SKILLS
 
-  - Game Development: C++ SDL C# Unity 3D JavaScript 
+  - Game Development: C++ Unity 3D JavaScript SDL 
   - Web: Rails JavaScript HTML 5 CSS MVC REST 
   - Database: SQL Server PostgreSQL ActiveRecord 
   - Project: Agile Git 
@@ -22,7 +22,7 @@ My interests generally lie on software development, specifically on **game devel
   - Working remotely on a project from start to finish
   - Dealing with foreign clients
 
-### *Founder and Developer*, [Oniric Pixel](http://www.oniricpixel.com.br) (2015-04 — Present)
+### *Co-Founder and Developer*, [Oniric Pixel](http://www.oniricpixel.com.br) (2015-04 — Present)
 
 
   - Attending public events to expose our game

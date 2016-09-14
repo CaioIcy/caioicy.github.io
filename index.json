@@ -18,7 +18,7 @@
     {
       "company": "Oniric Pixel",
       "website": "http://www.oniricpixel.com.br",
-      "position": "Founder and Developer",
+      "position": "Co-Founder and Developer",
       "startDate": "2015-04",
       "highlights": [
         "Attending public events to expose our game",
@@ -51,10 +51,9 @@
       "level": "master",
       "keywords": [
         "C++",
-        "SDL",
-        "C#",
         "Unity 3D",
-        "JavaScript"
+        "JavaScript",
+        "SDL"
       ]
     },
     {
