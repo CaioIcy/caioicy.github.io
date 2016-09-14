@@ -1,0 +1,165 @@
+meta:
+  format: FRESH@0.6.0
+  version: 0.4.0
+name: 'Caio Nardelli Maranhão'
+contact:
+  website1: 'https://caioicy.github.io'
+  website2: 'https://github.com/CaioIcy'
+  email: caio.nardelli.m@gmail.com
+info:
+  label: 'Software Engineer'
+  brief: 'My interests generally lie on software development, specifically on **game development**. I''m a **C++ enthusiast**, although I now have a soft spot for **web development** through Rails. *I am eager to learn, and know how to do so*.'
+projects:
+  -
+    title: Monet
+    category: personal
+    role: creator
+    url: 'http://monet.herokuapp.com'
+    summary: 'Needed to learn Rails in two weeks, and needed a budget management tool. This happened.'
+    keywords:
+      - 'Rails 4'
+      - Ruby
+      - 'HTML 5'
+      - JavaScript
+      - CSS
+      - Heroku
+  -
+    title: sdl2-engine
+    category: FOSS
+    role: creator
+    url: 'http://caioicy.github.io/sdl2-engine/'
+    start: 2014-07
+    end: 2015-02
+    repo: 'https://github.com/CaioIcy/sdl2-engine'
+    summary: 'A skeleton project for SDL2/C++ game development. Solidified my SDL2 and C++11 knowledge.'
+    keywords:
+      - C++
+      - 'SDL 2'
+      - GameDev
+  -
+    title: 'C++ Project Template'
+    category: FOSS
+    role: contributor
+    url: 'http://caioicy.github.io/CPP_Project_Template/'
+    repo: 'https://github.com/CaioIcy/CPP_Project_Template'
+    start: 2014-12
+    end: 2015-01
+    summary: 'Forked and evolved, a C++ project template integrated with multiple tools, such as CMake.'
+    keywords:
+      - C++
+      - CMake
+      - TravisCI
+      - gtest
+employment:
+  history:
+    -
+      employer: NorthShield
+      position: 'Partner and Developer'
+      start: 2016-04
+      keywords:
+        - Agile
+        - Rails
+        - JavaScript
+        - Heroku
+      highlights:
+        - 'Working remotely on a project from start to finish'
+        - 'Dealing with foreign clients'
+    -
+      employer: 'Oniric Pixel'
+      url: 'http://www.oniricpixel.com.br'
+      position: 'Founder and Developer'
+      start: 2015-04
+      keywords:
+        - 'Unity 3D'
+      highlights:
+        - 'Attending public events to expose our game'
+        - 'Project management'
+        - 'Full-fledged game development'
+    -
+      employer: 'Ministério das Comunicações'
+      url: 'https://area52.io/does-not-exist'
+      position: 'Junior Software Architect'
+      start: 2014-02
+      end: 2016-09
+      keywords:
+        - Agile
+        - PM
+        - Grails
+        - Java
+        - JavaScript
+      highlights:
+        - 'Defining a reference software architecture'
+        - 'Leading a 3-person agile team on a software development project'
+        - 'Offering support for the IT department'
+education:
+  level: Bachelor
+  history:
+    -
+      institution: 'Universidade de Brasília'
+      course: 'Software Engineering'
+      url: 'https://unb.br/'
+      start: 2012-01
+      summary: 'Engineering principles to build software, defining and applying a systematic, disciplined and quantifiable approach for the definition, development and maintenance of software.'
+      title: Graduating
+skills:
+  sets:
+    -
+      name: 'Game Development'
+      level: master
+      skills:
+        - C++
+        - SDL
+        - 'C#'
+        - 'Unity 3D'
+        - JavaScript
+    -
+      name: Web
+      level: advanced
+      skills:
+        - Rails
+        - JavaScript
+        - 'HTML 5'
+        - CSS
+        - MVC
+        - REST
+    -
+      name: Database
+      level: beginner
+      skills:
+        - 'SQL Server'
+        - PostgreSQL
+        - ActiveRecord
+    -
+      name: Project
+      level: advanced
+      skills:
+        - Agile
+        - Git
+    -
+      name: 'Software Engineering'
+      level: intermediate
+      skills:
+        - DevOps
+        - TDD
+reading:
+  -
+    title: r/programming
+    flavor: website
+    url: 'https://www.reddit.com/r/programming/'
+    summary: 'Daily reader.'
+recognition:
+  -
+    flavor: award
+    from: ACM-ICPC
+    url: 'https://icpc.baylor.edu/'
+    title: 'Certificate of Achievement'
+    event: 'Brazilian Sub-Regionals Finals'
+    date: '2016-09-10'
+    summary: 'Classified to the Brazilian Regional Finals as a Reserve Contestant.'
+languages:
+  -
+    language: English
+    level: 'Native Speaker'
+  -
+    language: Portuguese
+    level: 'Native Speaker'

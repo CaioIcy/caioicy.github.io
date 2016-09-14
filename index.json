@@ -1,0 +1,118 @@
+{
+  "basics": {
+    "name": "Caio Nardelli Maranhão",
+    "label": "Software Engineer",
+    "summary": "My interests generally lie on software development, specifically on **game development**. I'm a **C++ enthusiast**, although I now have a soft spot for **web development** through Rails. *I am eager to learn, and know how to do so*.",
+    "email": "caio.nardelli.m@gmail.com"
+  },
+  "work": [
+    {
+      "company": "NorthShield",
+      "position": "Partner and Developer",
+      "startDate": "2016-04",
+      "highlights": [
+        "Working remotely on a project from start to finish",
+        "Dealing with foreign clients"
+      ]
+    },
+    {
+      "company": "Oniric Pixel",
+      "website": "http://www.oniricpixel.com.br",
+      "position": "Founder and Developer",
+      "startDate": "2015-04",
+      "highlights": [
+        "Attending public events to expose our game",
+        "Project management",
+        "Full-fledged game development"
+      ]
+    },
+    {
+      "company": "Ministério das Comunicações",
+      "website": "https://area52.io/does-not-exist",
+      "position": "Junior Software Architect",
+      "startDate": "2014-02",
+      "endDate": "2016-09",
+      "highlights": [
+        "Defining a reference software architecture",
+        "Leading a 3-person agile team on a software development project",
+        "Offering support for the IT department"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidade de Brasília",
+      "startDate": "2012-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Game Development",
+      "level": "master",
+      "keywords": [
+        "C++",
+        "SDL",
+        "C#",
+        "Unity 3D",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Web",
+      "level": "advanced",
+      "keywords": [
+        "Rails",
+        "JavaScript",
+        "HTML 5",
+        "CSS",
+        "MVC",
+        "REST"
+      ]
+    },
+    {
+      "name": "Database",
+      "level": "beginner",
+      "keywords": [
+        "SQL Server",
+        "PostgreSQL",
+        "ActiveRecord"
+      ]
+    },
+    {
+      "name": "Project",
+      "level": "advanced",
+      "keywords": [
+        "Agile",
+        "Git"
+      ]
+    },
+    {
+      "name": "Software Engineering",
+      "level": "intermediate",
+      "keywords": [
+        "DevOps",
+        "TDD"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "flavor": "award",
+      "url": "https://icpc.baylor.edu/",
+      "title": "Certificate of Achievement",
+      "date": "2016-09-10",
+      "awarder": "ACM-ICPC",
+      "summary": "Classified to the Brazilian Regional Finals as a Reserve Contestant."
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "level": "Native Speaker"
+    },
+    {
+      "language": "Portuguese",
+      "level": "Native Speaker"
+    }
+  ]
+}
