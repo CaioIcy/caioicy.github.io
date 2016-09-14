@@ -207,6 +207,7 @@ also doesn't render any content.
     {{#if start}}| {{/if}}<span class="keywords">{{#each keywords}}{{{ . }}} {{/each}}</span>
     {{/if}}
   <p>{{{ summary }}}</p>
+  Highlights:
   {{> highlights }}
 </div>
 {{/inline}}
@@ -257,7 +258,7 @@ also doesn't render any content.
 
 {{#*inline "body-education" }}
 <div>
-<h3>{{#if title}}<em>{{ title }}</em>,{{/if}}
+<h3>{{#if course}}<em>{{ course }}</em>,{{/if}}
 {{#if url}}
 <a href="{{{ url }}}">{{ institution }}</a>
 {{else}}
@@ -265,8 +266,8 @@ also doesn't render any content.
 {{/if}}
 </h3>
 {{#if start}}<span class="tenure">{{dateRange .}}</span>{{/if}}
-{{#if curriculum}}
-{{#if start}}| {{/if}}<span class="keywords">{{#each curriculum}}{{{ . }}} {{/each}}</span>
+{{#if title}}
+{{#if start}}| {{/if}}<span class="keywords">{{ title }}</span>
 {{/if}}
 {{{ summary }}}
 {{> highlights }}
@@ -305,6 +306,35 @@ also doesn't render any content.
 
 {{> section/governance _icon="icon-governance"}}
 
+{{! <!--
+  Custom recognition section.
+--> }}
+
+{{#*inline "body-recognition" }}
+<div>
+<h3><em>{{ title }}</em>, {{{link from url }}}</h3>
+<span class="tenure">{{date date 'YYYY-MM-DD' }}</span> | <span class="keywords">{{ event }}</span>
+{{{ summary }}}
+{{> highlights }}
+</div>
+{{/inline}}
+
+{{#*inline "icon-recognition"}}<span class="fa fa-lg fa-trophy"></span>{{/inline}}
+
+{{> section/recognition _icon="icon-recognition"}}
+
+{{! <!--
+  Custom interests section.
+--> }}
+
+{{#*inline "body-interests" }}
+<div>
+<h3><em>{{#each is}}{{{ . }}} {{/each}}</em></h3>
+</div>
+{{/inline}}
+
+{{#*inline "icon-interests"}}<span class="fa fa-lg fa-bicycle"></span>{{/inline}}
+
 
 {{! <!--
   Custom languages section
@@ -341,11 +371,9 @@ also doesn't render any content.
 {{#*inline "icon-samples"}}<span class="fa fa-lg fa-share"></span>{{/inline}}
 {{#*inline "icon-writing"}}<span class="fa fa-lg fa-pencil"></span>{{/inline}}
 {{#*inline "icon-reading"}}<span class="fa fa-lg fa-book"></span>{{/inline}}
-{{#*inline "icon-recognition"}}<span class="fa fa-lg fa-trophy"></span>{{/inline}}
 {{#*inline "icon-speaking"}}<span class="fa fa-lg fa-users"></span>{{/inline}}
 {{#*inline "icon-testimonials"}}<span class="fa fa-lg fa-quote-left"></span>{{/inline}}
 {{#*inline "icon-references"}}<span class="fa fa-lg fa-thumbs-o-up"></span>{{/inline}}
-{{#*inline "icon-interests"}}<span class="fa fa-lg fa-bicycle"></span>{{/inline}}
 
 {{! <!--
   And we're done with the customizations. For the rest of the resume, we'll
@@ -357,7 +385,6 @@ also doesn't render any content.
 {{> section/samples _icon="icon-samples"}}
 {{> section/writing _icon="icon-writing"}}
 {{> section/reading _icon="icon-reading"}}
-{{> section/recognition _icon="icon-recognition"}}
 {{> section/speaking _icon="icon-speaking"}}
 {{> section/testimonials _icon="icon-testimonials"}}
 {{> section/references _icon="icon-references"}}
