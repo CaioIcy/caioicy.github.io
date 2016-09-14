@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
 }
@@ -18,7 +17,7 @@ body {
 }
 
 /* Typical page borders are awkward when rendered to PDF. */
-body.pdf {
+body {
   background-color: #FFFFFF;
 }
 
@@ -31,7 +30,7 @@ the PDF case, <main> for the HTML case, and style both via an ID. */
   border: 1px solid #E6E6E6;
 }
 
-body.pdf > #main {
+body > #main {
   border: none;
 }
 
@@ -123,13 +122,13 @@ a:hover {
 }
 .card-nested {
     min-height: 0;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     border-width: 1px 0 0 0;
 }
 .card {
     background: #FFF;
     border-radius: 3px;
-    padding: 7px;
+    padding: 10px;
 }
 
 .skill-level {

@@ -29,9 +29,9 @@ My interests generally lie on software development, specifically on **game devel
   - Project management
   - Full-fledged game development
 
-### *Junior Software Architect*, [Ministério das Comunicações](https://area52.io/does-not-exist) (2014-02 — 2016-09)
+### *Junior Software Architect*, Ministério das Comunicações (2014-02 — 2016-09)
 
-
+In partnership with Universidade de Brasília.
   - Defining a reference software architecture
   - Leading a 3-person agile team on a software development project
   - Offering support for the IT department

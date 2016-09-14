@@ -28,10 +28,10 @@
     },
     {
       "company": "Ministério das Comunicações",
-      "website": "https://area52.io/does-not-exist",
       "position": "Junior Software Architect",
       "startDate": "2014-02",
       "endDate": "2016-09",
+      "summary": "In partnership with Universidade de Brasília.",
       "highlights": [
         "Defining a reference software architecture",
         "Leading a 3-person agile team on a software development project",

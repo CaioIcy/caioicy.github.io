@@ -1094,14 +1094,11 @@
       <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
         <w:t>Junior Software Architect, </w:t>
       </w:r>
-      <w:hlink w:dest="https://area52.io/does-not-exist">
+      
         <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
-          <w:rPr>
-            <w:rStyle w:val="Hyperlink"/>
-          </w:rPr>
           <w:t>Ministério das Comunicações</w:t>
         </w:r>
-      </w:hlink>
+      
       <w:r wsp:rsidR="00EA0B64">
         <w:tab/>
       </w:r>
@@ -1118,7 +1115,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      
+      <w:r><w:rPr></w:rPr><w:t>In partnership with Universidade de Brasília.</w:t></w:r>
     </w:p>
 
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">

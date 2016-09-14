@@ -78,10 +78,10 @@
 
       {
         "employer": "Ministério das Comunicações",
-        "url": "https://area52.io/does-not-exist",
         "position": "Junior Software Architect",
         "start": "2014-02",
         "end": "2016-09",
+        "summary": "In partnership with Universidade de Brasília.",
         "keywords": ["Agile", "PM", "Grails", "Java", "JavaScript"],
         "highlights": [
           "Defining a reference software architecture",
