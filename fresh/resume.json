@@ -14,41 +14,8 @@
 
   "info": {
     "label": "Software Engineer",
-    "brief": "My interests generally lie on software development, specifically on **game development**. I'm a **C++ enthusiast**, although I now have a soft spot for **web development** through Rails. *I am eager to learn, and know how to do so*."
+    "brief": "I'm a software engineer with a soft spot for **web** and **game development**, alongside **clean coding**. A **C++ enthusiast**, although I now enjoy the Rails universe quite a bit. *I am eager to learn, and know how to do so*."
   },
-
-  "projects": [
-    {
-      "title": "Monet",
-      "category": "personal",
-      "role": "creator",
-      "url": "http://monet.herokuapp.com",
-      "summary": "Needed to learn Rails in two weeks, and needed a budget management tool. This happened.",
-      "keywords": ["Rails 4", "Ruby", "HTML 5", "JavaScript", "CSS", "Heroku"]
-    },
-    {
-      "title": "sdl2-engine",
-      "category": "FOSS",
-      "role": "creator",
-      "url": "http://caioicy.github.io/sdl2-engine/",
-      "start": "2014-07",
-      "end": "2015-02",
-      "repo": "https://github.com/CaioIcy/sdl2-engine",
-      "summary": "A skeleton project for SDL2/C++ game development. Solidified my SDL2 and C++11 knowledge.",
-      "keywords": ["C++", "SDL 2", "GameDev"]
-    },
-    {
-      "title": "C++ Project Template",
-      "category": "FOSS",
-      "role": "contributor",
-      "url": "http://caioicy.github.io/CPP_Project_Template/",
-      "repo": "https://github.com/CaioIcy/CPP_Project_Template",
-      "start": "2014-12",
-      "end": "2015-01",
-      "summary": "Forked and evolved, a C++ project template integrated with multiple tools, such as CMake.",
-      "keywords": ["C++", "CMake", "TravisCI", "gtest"]
-    }
-  ],
 
   "employment": {
     "history": [
@@ -58,8 +25,8 @@
         "start": "2016-04",
         "keywords": ["Agile", "Rails", "JavaScript", "Heroku"],
         "highlights": [
-          "Working remotely on a project from start to finish",
-          "Dealing with foreign clients"
+          "Working remotely on a project from start to finish;",
+          "Dealing with foreign clients."
         ]
       },
 
@@ -70,9 +37,9 @@
         "start": "2015-04",
         "keywords": ["Unity 3D"],
         "highlights": [
-          "Attending public events to expose our game",
-          "Project management",
-          "Full-fledged game development"
+          "Attending public events to expose our game;",
+          "Project management;",
+          "Full-fledged game development."
         ]
       },
 
@@ -84,9 +51,9 @@
         "summary": "In partnership with Universidade de Brasília.",
         "keywords": ["Agile", "PM", "Grails", "Java", "JavaScript"],
         "highlights": [
-          "Defining a reference software architecture",
-          "Leading a 3-person agile team on a software development project",
-          "Offering support for the IT department"
+          "Defining a reference software architecture;",
+          "Leading a 3-person agile team on a software development project;",
+          "Offering support for the IT department."
         ]
       }
     ]
@@ -112,51 +79,42 @@
 
     "sets": [
       {
-        "name": "Game Development",
+        "name": "Expert",
         "level": "master",
         "skills": [
-          "C++", "Unity 3D", "JavaScript", "SDL"
+          "C++", "Unity 3D", "Git"
         ]
       },
       {
-        "name": "Web",
+        "name": "Proficient",
         "level": "advanced",
         "skills": [
-          "Rails", "JavaScript", "HTML 5", "CSS", "MVC", "REST"
+          "Ruby", "Rails", "JavaScript", "C", "MVC", "REST"
         ]
       },
       {
-        "name": "Database",
-        "level": "beginner",
-        "skills": [
-          "SQL Server", "PostgreSQL", "ActiveRecord"
-        ]
-      },
-      {
-        "name": "Project",
-        "level": "advanced",
-        "skills": [
-          "Agile", "Git"
-        ]
-      },
-      {
-        "name": "Software Engineering",
+        "name": "Competent",
         "level": "intermediate",
         "skills": [
-          "DevOps", "TDD"
+          "Python", "HTML 5", "SQL Server", "PostgreSQL", "TDD"
+        ]
+      },
+      {
+        "name": "Beginner",
+        "level": "beginner",
+        "skills": [
+          "DevOps", "CSS"
+        ]
+      },
+      {
+        "name": "Learning",
+        "level": "learning",
+        "skills": [
+          "AngularJS", "Vue.js", "Rust"
         ]
       }
     ]
   },
-
-  "reading": [
-    {
-      "title": "r/programming",
-      "flavor": "website",
-      "url": "https://www.reddit.com/r/programming/",
-      "summary": "Daily reader."
-    }
-  ],
 
   "recognition": [
     {
@@ -178,6 +136,21 @@
     {
       "language": "Portuguese",
       "level": "Native Speaker"
+    }
+  ],
+
+  "reading": [
+    {
+      "title": "r/programming",
+      "flavor": "website",
+      "url": "https://www.reddit.com/r/programming/",
+      "summary": "Daily reader."
+    },
+    {
+      "title": "Code Complete",
+      "flavor": "book",
+      "url": "https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670",
+      "summary": "Excelent reference for clean coding, with great checklists for each subject."
     }
   ]
 

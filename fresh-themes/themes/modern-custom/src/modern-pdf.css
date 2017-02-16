@@ -147,13 +147,17 @@ a:hover {
   width: 100%;
   -webkit-transition: height 1s ease;
 }
+.skill-level .skill-progress.learning {
+  height: 30%;
+  background: #e74c3c;
+}
 .skill-level .skill-progress.beginner {
   height: 50%;
-  background: #e74c3c;
+  background: #f1c40f;
 }
 .skill-level .skill-progress.intermediate {
   height: 70%;
-  background: #f1c40f;
+  background: #ae31bc;
 }
 .skill-level .skill-progress.advanced {
   height: 80%;
@@ -163,6 +167,7 @@ a:hover {
   height: 95%;
   background: #5cb85c;
 }
+
 .skill-info {
   margin-left: 10px;
 }

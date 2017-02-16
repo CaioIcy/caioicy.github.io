@@ -624,7 +624,7 @@
               <w:b/>
               <w:caps/>
             </w:rPr>
-            <w:t>Game Development</w:t>
+            <w:t>Expert</w:t>
           </w:r>
         </w:p>
         <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
@@ -633,7 +633,7 @@
               <w:caps/>
               <w:spacing w:val="22"/>
             </w:rPr>
-            <w:t>C++  Unity 3D  JavaScript  SDL</w:t>
+            <w:t>C++  Unity 3D  Git</w:t>
           </w:r>
         </w:p>
       </w:tc>
@@ -683,7 +683,7 @@
               <w:b/>
               <w:caps/>
             </w:rPr>
-            <w:t>Web</w:t>
+            <w:t>Proficient</w:t>
           </w:r>
         </w:p>
         <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
@@ -692,125 +692,7 @@
               <w:caps/>
               <w:spacing w:val="22"/>
             </w:rPr>
-            <w:t>Rails  JavaScript  HTML 5  CSS  MVC  REST</w:t>
-          </w:r>
-        </w:p>
-      </w:tc>
-    </w:tr>
-
-
-    <w:tr wsp:rsidR="00427ECC" wsp:rsidTr="00FD3B33">
-      <w:trPr>
-        <w:trHeight w:val="882"/>
-      </w:trPr>
-      <w:tc>
-        <w:tcPr>
-          <w:tcW w:w="828" w:type="dxa"/>
-          <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-        </w:tcPr>
-        <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
-          <w:r>
-            <w:rPr>
-              <w:noProof/>
-            </w:rPr>
-            <w:pict>
-              <v:rect id="_x0000_s1028" style="position:absolute;left:0;text-align:left;margin-left:20.6pt;margin-top:1.4pt;width:7.15pt;height:38.25pt;z-index:1" fillcolor="#5CB85C"  strokeweight="0"/>
-            </w:pict>
-          </w:r>
-          <w:r>
-            <w:rPr>
-              <w:noProof/>
-            </w:rPr>
-            <w:pict>
-              <v:rect id="_x0000_s1026" style="position:absolute;left:0;text-align:left;margin-left:20.6pt;margin-top:1.4pt;width:7.15pt;height:30pt;z-index:2" fillcolor="#FFFFFF" strokeweight="0"/>
-            </w:pict>
-          </w:r>
-        </w:p>
-      </w:tc>
-      <w:tc>
-        <w:tcPr>
-          <w:tcW w:w="8748" w:type="dxa"/>
-          <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-        </w:tcPr>
-        <w:p>
-          <w:pPr>
-            <w:spacing w:before="120"/>
-          </w:pPr>
-          <w:r>
-            <w:rPr>
-              <w:sz w:val="24"/>
-              <w:b/>
-              <w:caps/>
-            </w:rPr>
-            <w:t>Database</w:t>
-          </w:r>
-        </w:p>
-        <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
-          <w:r>
-            <w:rPr>
-              <w:caps/>
-              <w:spacing w:val="22"/>
-            </w:rPr>
-            <w:t>SQL Server  PostgreSQL  ActiveRecord</w:t>
-          </w:r>
-        </w:p>
-      </w:tc>
-    </w:tr>
-
-
-    <w:tr wsp:rsidR="00427ECC" wsp:rsidTr="00FD3B33">
-      <w:trPr>
-        <w:trHeight w:val="882"/>
-      </w:trPr>
-      <w:tc>
-        <w:tcPr>
-          <w:tcW w:w="828" w:type="dxa"/>
-          <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-        </w:tcPr>
-        <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
-          <w:r>
-            <w:rPr>
-              <w:noProof/>
-            </w:rPr>
-            <w:pict>
-              <v:rect id="_x0000_s1028" style="position:absolute;left:0;text-align:left;margin-left:20.6pt;margin-top:1.4pt;width:7.15pt;height:38.25pt;z-index:1" fillcolor="#428BCA"  strokeweight="0"/>
-            </w:pict>
-          </w:r>
-          <w:r>
-            <w:rPr>
-              <w:noProof/>
-            </w:rPr>
-            <w:pict>
-              <v:rect id="_x0000_s1026" style="position:absolute;left:0;text-align:left;margin-left:20.6pt;margin-top:1.4pt;width:7.15pt;height:8pt;z-index:2" fillcolor="#FFFFFF" strokeweight="0"/>
-            </w:pict>
-          </w:r>
-        </w:p>
-      </w:tc>
-      <w:tc>
-        <w:tcPr>
-          <w:tcW w:w="8748" w:type="dxa"/>
-          <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-        </w:tcPr>
-        <w:p>
-          <w:pPr>
-            <w:spacing w:before="120"/>
-          </w:pPr>
-          <w:r>
-            <w:rPr>
-              <w:sz w:val="24"/>
-              <w:b/>
-              <w:caps/>
-            </w:rPr>
-            <w:t>Project</w:t>
-          </w:r>
-        </w:p>
-        <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
-          <w:r>
-            <w:rPr>
-              <w:caps/>
-              <w:spacing w:val="22"/>
-            </w:rPr>
-            <w:t>Agile  Git</w:t>
+            <w:t>Ruby  Rails  JavaScript  C  MVC  REST</w:t>
           </w:r>
         </w:p>
       </w:tc>
@@ -860,7 +742,7 @@
               <w:b/>
               <w:caps/>
             </w:rPr>
-            <w:t>Software Engineering</w:t>
+            <w:t>Competent</w:t>
           </w:r>
         </w:p>
         <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
@@ -869,7 +751,125 @@
               <w:caps/>
               <w:spacing w:val="22"/>
             </w:rPr>
-            <w:t>DevOps  TDD</w:t>
+            <w:t>Python  HTML 5  SQL Server  PostgreSQL  TDD</w:t>
+          </w:r>
+        </w:p>
+      </w:tc>
+    </w:tr>
+
+
+    <w:tr wsp:rsidR="00427ECC" wsp:rsidTr="00FD3B33">
+      <w:trPr>
+        <w:trHeight w:val="882"/>
+      </w:trPr>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:w="828" w:type="dxa"/>
+          <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+        </w:tcPr>
+        <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
+          <w:r>
+            <w:rPr>
+              <w:noProof/>
+            </w:rPr>
+            <w:pict>
+              <v:rect id="_x0000_s1028" style="position:absolute;left:0;text-align:left;margin-left:20.6pt;margin-top:1.4pt;width:7.15pt;height:38.25pt;z-index:1" fillcolor="#5CB85C"  strokeweight="0"/>
+            </w:pict>
+          </w:r>
+          <w:r>
+            <w:rPr>
+              <w:noProof/>
+            </w:rPr>
+            <w:pict>
+              <v:rect id="_x0000_s1026" style="position:absolute;left:0;text-align:left;margin-left:20.6pt;margin-top:1.4pt;width:7.15pt;height:30pt;z-index:2" fillcolor="#FFFFFF" strokeweight="0"/>
+            </w:pict>
+          </w:r>
+        </w:p>
+      </w:tc>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:w="8748" w:type="dxa"/>
+          <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:spacing w:before="120"/>
+          </w:pPr>
+          <w:r>
+            <w:rPr>
+              <w:sz w:val="24"/>
+              <w:b/>
+              <w:caps/>
+            </w:rPr>
+            <w:t>Beginner</w:t>
+          </w:r>
+        </w:p>
+        <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
+          <w:r>
+            <w:rPr>
+              <w:caps/>
+              <w:spacing w:val="22"/>
+            </w:rPr>
+            <w:t>DevOps  CSS</w:t>
+          </w:r>
+        </w:p>
+      </w:tc>
+    </w:tr>
+
+
+    <w:tr wsp:rsidR="00427ECC" wsp:rsidTr="00FD3B33">
+      <w:trPr>
+        <w:trHeight w:val="882"/>
+      </w:trPr>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:w="828" w:type="dxa"/>
+          <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+        </w:tcPr>
+        <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
+          <w:r>
+            <w:rPr>
+              <w:noProof/>
+            </w:rPr>
+            <w:pict>
+              <v:rect id="_x0000_s1028" style="position:absolute;left:0;text-align:left;margin-left:20.6pt;margin-top:1.4pt;width:7.15pt;height:38.25pt;z-index:1" fillcolor="#FFFFFF"  strokeweight="0"/>
+            </w:pict>
+          </w:r>
+          <w:r>
+            <w:rPr>
+              <w:noProof/>
+            </w:rPr>
+            <w:pict>
+              <v:rect id="_x0000_s1026" style="position:absolute;left:0;text-align:left;margin-left:20.6pt;margin-top:1.4pt;width:7.15pt;height:38.25pt;z-index:2" fillcolor="#FFFFFF" strokeweight="0"/>
+            </w:pict>
+          </w:r>
+        </w:p>
+      </w:tc>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:w="8748" w:type="dxa"/>
+          <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:spacing w:before="120"/>
+          </w:pPr>
+          <w:r>
+            <w:rPr>
+              <w:sz w:val="24"/>
+              <w:b/>
+              <w:caps/>
+            </w:rPr>
+            <w:t>Learning</w:t>
+          </w:r>
+        </w:p>
+        <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
+          <w:r>
+            <w:rPr>
+              <w:caps/>
+              <w:spacing w:val="22"/>
+            </w:rPr>
+            <w:t>AngularJS  Vue.js  Rust</w:t>
           </w:r>
         </w:p>
       </w:tc>
@@ -975,7 +975,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Working remotely on a project from start to finish</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Working remotely on a project from start to finish;</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -990,7 +990,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Dealing with foreign clients</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Dealing with foreign clients.</w:t></w:r>
     </w:p>
 
   </wx:sub-section>
@@ -1047,7 +1047,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Attending public events to expose our game</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Attending public events to expose our game;</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1062,7 +1062,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Project management</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Project management;</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1077,7 +1077,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Full-fledged game development</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Full-fledged game development.</w:t></w:r>
     </w:p>
 
   </wx:sub-section>
@@ -1131,7 +1131,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Defining a reference software architecture</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Defining a reference software architecture;</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1146,7 +1146,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Leading a 3-person agile team on a software development project</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Leading a 3-person agile team on a software development project;</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1161,7 +1161,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Offering support for the IT department</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Offering support for the IT department.</w:t></w:r>
     </w:p>
 
   </wx:sub-section>
@@ -1169,160 +1169,7 @@
 
 </wx:sub-section>
 
-      <wx:sub-section>
-
-<wx:pBdrGroup>
-  <wx:borders>
-    <wx:top wx:val="solid" wx:bdrwidth="15" wx:space="1" wx:color="EEEEEE"/>
-  </wx:borders>
-  <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00693C5A" wsp:rsidP="00C146CA">
-    <w:pPr>
-      <w:pStyle w:val="Heading1"/>
-      <w:ind w:left="-720"/>      
-    </w:pPr>
-    <w:r>
-      <w:pict>
-        <w:binData w:name="wordml://03000001.png" xml:space="preserve">iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAR1QTFRFv8HEv8HDv8jZv8HGv8rbv8HIv8HOv8zdv8bVv8TOv8TMv8LK08TD1cTD2dDOz8rIw8LDwcLGycrOz9DX0crIw8LEwcHDw8LGycrTx8HD2cjDzcHDw8bQ29zZz8TDxcHDy8TDx8LD3drizdzxz97xzdz/xdTs09zqz+H70+P70+X/0eH/0+Px1eX51+v/3ef11+Hw1en/99jK+drM49rb7dTI7dbK8djM9drO99zO89bK5c7E/9zO79rQ8dTI7drO69zi/efZ/+/X/+HQ///d/+vV8+HT///7+fX5///m9//////q+f///fXx8+vk6+/w9/n/5fH/4//////w7////f/////54f//+/////v1//Hm4+Hq//vw8fv/////A0CiDgAAARBJREFUSMdjiCMRMIxqGNUwqoHaGtw9SNRgxKBBkgZPHkYmL1I0GDMyMmuSoAFoASNOKxiwW4DbCgYcFuC0ggGHBUArtIjU4M0L0cDI4kNQg6+fCR+/ACMMCAoJK/kH4NLgKCIqxogNMIhLBGLTYMyIEzBoY9PgbopTvTJ2P7ibiRGhHtnT2HUwq+AOJXdzTB2sOviC1d1CjJB69IizRNXBqksopp0kUTSwBRHS4Ixmgx4hDVZoflAlpMEaTYMaAQ3BUmga2AlocJGGqJORlYMwOELwa3CVB6ni1A+NC3NTAAdTOH4NNkA1XAahYHaYrSIwYRji12DHyK0eAedF2stjBhOqhqjoCBR+jEMs/UtvAMiRyWLg7gtIAAAAAElFTkSuQmCC</w:binData>
-        <v:shape id="_x0000_i1031" type="#_x0000_t75" style="width:31.5pt;height:31.5pt">
-          <v:imagedata src="wordml://03000001.png" o:title="star-icon"/>
-        </v:shape>
-      </w:pict>
-    </w:r>
-    <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-      <w:t>PROJECTS</w:t>
-    </w:r>
-  </w:p>
-</wx:pBdrGroup>
-
-
-  <wx:sub-section>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
-      <w:pPr>
-        <w:pStyle w:val="Heading2"/>
-        <w:tabs>
-          <w:tab w:val="right" w:pos="9360"/>
-        </w:tabs>
-      </w:pPr>
-      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:t>creator, </w:t>
-      </w:r>
-      <w:hlink w:dest="http://monet.herokuapp.com">
-        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
-          <w:rPr>
-            <w:rStyle w:val="Hyperlink"/>
-          </w:rPr>
-          <w:t>Monet</w:t>
-        </w:r>
-      </w:hlink>
-      <w:r wsp:rsidR="00EA0B64">
-        <w:tab/>
-      </w:r>
-      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:rPr>
-          <w:rStyle w:val="FromTo"/>
-        </w:rPr>
-        <w:t>??? — Present</w:t>
-      </w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Needed to learn Rails in two weeks, and needed a budget management tool. This happened.</w:t></w:r>
-    </w:p>
-
-
-  </wx:sub-section>
-
-
-  <wx:sub-section>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
-      <w:pPr>
-        <w:pStyle w:val="Heading2"/>
-        <w:tabs>
-          <w:tab w:val="right" w:pos="9360"/>
-        </w:tabs>
-      </w:pPr>
-      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:t>creator, </w:t>
-      </w:r>
-      <w:hlink w:dest="http://caioicy.github.io/sdl2-engine/">
-        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
-          <w:rPr>
-            <w:rStyle w:val="Hyperlink"/>
-          </w:rPr>
-          <w:t>sdl2-engine</w:t>
-        </w:r>
-      </w:hlink>
-      <w:r wsp:rsidR="00EA0B64">
-        <w:tab/>
-      </w:r>
-      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:rPr>
-          <w:rStyle w:val="FromTo"/>
-        </w:rPr>
-        <w:t>2014-07 — 2015-02</w:t>
-      </w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>A skeleton project for SDL2/C++ game development. Solidified my SDL2 and C++11 knowledge.</w:t></w:r>
-    </w:p>
-
-
-  </wx:sub-section>
-
-
-  <wx:sub-section>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
-      <w:pPr>
-        <w:pStyle w:val="Heading2"/>
-        <w:tabs>
-          <w:tab w:val="right" w:pos="9360"/>
-        </w:tabs>
-      </w:pPr>
-      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:t>contributor, </w:t>
-      </w:r>
-      <w:hlink w:dest="http://caioicy.github.io/CPP_Project_Template/">
-        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
-          <w:rPr>
-            <w:rStyle w:val="Hyperlink"/>
-          </w:rPr>
-          <w:t>C++ Project Template</w:t>
-        </w:r>
-      </w:hlink>
-      <w:r wsp:rsidR="00EA0B64">
-        <w:tab/>
-      </w:r>
-      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:rPr>
-          <w:rStyle w:val="FromTo"/>
-        </w:rPr>
-        <w:t>2014-12 — 2015-01</w:t>
-      </w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Forked and evolved, a C++ project template integrated with multiple tools, such as CMake.</w:t></w:r>
-    </w:p>
-
-
-  </wx:sub-section>
-
-
-</wx:sub-section>
-
+      
       
       <wx:sub-section>
 

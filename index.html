@@ -157,13 +157,17 @@
               width: 100%;
               -webkit-transition: height 1s ease;
             }
+            .skill-level .skill-progress.learning {
+              height: 30%;
+              background: #e74c3c;
+            }
             .skill-level .skill-progress.beginner {
               height: 50%;
-              background: #e74c3c;
+              background: #f1c40f;
             }
             .skill-level .skill-progress.intermediate {
               height: 70%;
-              background: #f1c40f;
+              background: #ae31bc;
             }
             .skill-level .skill-progress.advanced {
               height: 80%;
@@ -234,9 +238,29 @@
                     <header> <span class="fa fa-lg fa-info"></span> 
                          <h2>info</h2>
 
-                    </header>My interests generally lie on software development, specifically on <strong>game development</strong>.
-                    I&#39;m a <strong>C++ enthusiast</strong>, although I now have a soft spot
-                    for <strong>web development</strong> through Rails. <em>I am eager to learn, and know how to do so</em>.</section>
+                    </header>I&#39;m a software engineer with a soft spot for <strong>web</strong> and <strong>game development</strong>,
+                    alongside <strong>clean coding</strong>. A <strong>C++ enthusiast</strong>,
+                    although I now enjoy the Rails universe quite a bit. <em>I am eager to learn, and know how to do so</em>.</section>
+                <hr>
+                <section id="education">
+                    <header> <span class="fa fa-lg fa-mortar-board"></span> 
+                         <h2>education</h2>
+
+                    </header>
+                    <div>
+                        
+<h3><em>Software Engineering</em>,
+<a href="https://unb.br/">Universidade de Brasília</a>
+</h3>
+
+<span class="tenure">2012-01 — Present</span>
+| <span class="keywords">Graduating</span>
+
+                        <p>Engineering principles to build software, defining and applying a systematic,
+                            disciplined and quantifiable approach for the definition, development and
+                            maintenance of software.</p>
+                    </div>
+                </section>
                 <hr>
                 <section id="skills">
                     <header>
@@ -249,14 +273,13 @@
                             <div class="skill-level" rel="tooltip" title="master" data-placement="left">
                                 <div class="skill-progress master"></div>
                             </div>
-                            <div class="skill-info"> <strong>Game Development</strong>
+                            <div class="skill-info"> <strong>Expert</strong>
 
                                 <div class="space-top labels"> <span class="label label-keyword">C++</span>
  <span class="label label-keyword">Unity 3D</span>
 
                                     <span
-                                    class="label label-keyword">JavaScript</span> <span class="label label-keyword">SDL</span>
-
+                                    class="label label-keyword">Git</span>
                                 </div>
                             </div>
                         </li>
@@ -264,13 +287,13 @@
                             <div class="skill-level" rel="tooltip" title="advanced" data-placement="left">
                                 <div class="skill-progress advanced"></div>
                             </div>
-                            <div class="skill-info"> <strong>Web</strong>
+                            <div class="skill-info"> <strong>Proficient</strong>
 
-                                <div class="space-top labels"> <span class="label label-keyword">Rails</span>
- <span class="label label-keyword">JavaScript</span>
+                                <div class="space-top labels"> <span class="label label-keyword">Ruby</span>
+ <span class="label label-keyword">Rails</span>
 
                                     <span
-                                    class="label label-keyword">HTML 5</span> <span class="label label-keyword">CSS</span>
+                                    class="label label-keyword">JavaScript</span> <span class="label label-keyword">C</span>
  <span class="label label-keyword">MVC</span>
 
                                         <span
@@ -279,40 +302,45 @@
                             </div>
                         </li>
                         <li class="card card-nested card-skills">
-                            <div class="skill-level" rel="tooltip" title="beginner" data-placement="left">
-                                <div class="skill-progress beginner"></div>
-                            </div>
-                            <div class="skill-info"> <strong>Database</strong>
-
-                                <div class="space-top labels"> <span class="label label-keyword">SQL Server</span>
- <span class="label label-keyword">PostgreSQL</span>
-
-                                    <span
-                                    class="label label-keyword">ActiveRecord</span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="card card-nested card-skills">
-                            <div class="skill-level" rel="tooltip" title="advanced" data-placement="left">
-                                <div class="skill-progress advanced"></div>
-                            </div>
-                            <div class="skill-info"> <strong>Project</strong>
-
-                                <div class="space-top labels"> <span class="label label-keyword">Agile</span>
- <span class="label label-keyword">Git</span>
-
-                                </div>
-                            </div>
-                        </li>
-                        <li class="card card-nested card-skills">
                             <div class="skill-level" rel="tooltip" title="intermediate" data-placement="left">
                                 <div class="skill-progress intermediate"></div>
                             </div>
-                            <div class="skill-info"> <strong>Software Engineering</strong>
+                            <div class="skill-info"> <strong>Competent</strong>
+
+                                <div class="space-top labels"> <span class="label label-keyword">Python</span>
+ <span class="label label-keyword">HTML 5</span>
+
+                                    <span
+                                    class="label label-keyword">SQL Server</span> <span class="label label-keyword">PostgreSQL</span>
+
+                                        <span
+                                        class="label label-keyword">TDD</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="beginner" data-placement="left">
+                                <div class="skill-progress beginner"></div>
+                            </div>
+                            <div class="skill-info"> <strong>Beginner</strong>
 
                                 <div class="space-top labels"> <span class="label label-keyword">DevOps</span>
- <span class="label label-keyword">TDD</span>
+ <span class="label label-keyword">CSS</span>
 
+                                </div>
+                            </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="learning" data-placement="left">
+                                <div class="skill-progress learning"></div>
+                            </div>
+                            <div class="skill-info"> <strong>Learning</strong>
+
+                                <div class="space-top labels"> <span class="label label-keyword">AngularJS</span>
+ <span class="label label-keyword">Vue.js</span>
+
+                                    <span
+                                    class="label label-keyword">Rust</span>
                                 </div>
                             </div>
                         </li>
@@ -333,8 +361,8 @@
 
                         <p></p>Highlights:
                         <ul>
-                            <li>Working remotely on a project from start to finish</li>
-                            <li>Dealing with foreign clients</li>
+                            <li>Working remotely on a project from start to finish;</li>
+                            <li>Dealing with foreign clients.</li>
                         </ul>
                     </div>
                     <div>
@@ -346,9 +374,9 @@
 
                         <p></p>Highlights:
                         <ul>
-                            <li>Attending public events to expose our game</li>
-                            <li>Project management</li>
-                            <li>Full-fledged game development</li>
+                            <li>Attending public events to expose our game;</li>
+                            <li>Project management;</li>
+                            <li>Full-fledged game development.</li>
                         </ul>
                     </div>
                     <div>
@@ -362,72 +390,10 @@
                             <p>In partnership with Universidade de Brasília.</p>
                         </p>Highlights:
                         <ul>
-                            <li>Defining a reference software architecture</li>
-                            <li>Leading a 3-person agile team on a software development project</li>
-                            <li>Offering support for the IT department</li>
+                            <li>Defining a reference software architecture;</li>
+                            <li>Leading a 3-person agile team on a software development project;</li>
+                            <li>Offering support for the IT department.</li>
                         </ul>
-                    </div>
-                </section>
-                <hr>
-                <section id="projects">
-                    <header> <span class="fa fa-lg fa-star"></span> 
-                         <h2>projects</h2>
-
-                    </header>
-                    <div>
-                        
-<h3><em>Creator</em>,
-<a href="http://monet.herokuapp.com">Monet</a>
-</h3>
-
-<span class="keywords">Rails 4 Ruby HTML 5 JavaScript CSS Heroku </span>
-
-                        <p>Needed to learn Rails in two weeks, and needed a budget management tool.
-                            This happened.</p>
-                    </div>
-                    <div>
-                        
-<h3><em>Creator</em>,
-<a href="http://caioicy.github.io/sdl2-engine/">sdl2-engine</a>
-</h3>
-
-<span class="tenure">2014-07 — 2015-02</span>
-| <span class="keywords">C++ SDL 2 GameDev </span>
-
-                        <p>A skeleton project for SDL2/C++ game development. Solidified my SDL2 and
-                            C++11 knowledge.</p>
-                    </div>
-                    <div>
-                        
-<h3><em>Contributor</em>,
-<a href="http://caioicy.github.io/CPP_Project_Template/">C++ Project Template</a>
-</h3>
-
-<span class="tenure">2014-12 — 2015-01</span>
-| <span class="keywords">C++ CMake TravisCI gtest </span>
-
-                        <p>Forked and evolved, a C++ project template integrated with multiple tools,
-                            such as CMake.</p>
-                    </div>
-                </section>
-                <hr>
-                <section id="education">
-                    <header> <span class="fa fa-lg fa-mortar-board"></span> 
-                         <h2>education</h2>
-
-                    </header>
-                    <div>
-                        
-<h3><em>Software Engineering</em>,
-<a href="https://unb.br/">Universidade de Brasília</a>
-</h3>
-
-<span class="tenure">2012-01 — Present</span>
-| <span class="keywords">Graduating</span>
-
-                        <p>Engineering principles to build software, defining and applying a systematic,
-                            disciplined and quantifiable approach for the definition, development and
-                            maintenance of software.</p>
                     </div>
                 </section>
                 <hr>
@@ -477,6 +443,12 @@ Native Speaker</div>
  <span class="tenure">Current</span>
 
                         <p>Daily reader.</p>
+                    </div>
+                    <div>
+                         <h3><em><a href="https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670">Code Complete</a></em></h3>
+ <span class="tenure">Current</span>
+
+                        <p>Excelent reference for clean coding, with great checklists for each subject.</p>
                     </div>
                 </section>
             </div>

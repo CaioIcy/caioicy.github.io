@@ -4,55 +4,38 @@ Email: caio.nardelli.m@gmail.com
 
 
 
-My interests generally lie on software development, specifically on **game development**. I'm a **C++ enthusiast**, although I now have a soft spot for **web development** through Rails. *I am eager to learn, and know how to do so*.
+I'm a software engineer with a soft spot for **web** and **game development**, alongside **clean coding**. A **C++ enthusiast**, although I now enjoy the Rails universe quite a bit. *I am eager to learn, and know how to do so*.
 
 ## SKILLS
 
-  - Game Development: C++ Unity 3D JavaScript SDL 
-  - Web: Rails JavaScript HTML 5 CSS MVC REST 
-  - Database: SQL Server PostgreSQL ActiveRecord 
-  - Project: Agile Git 
-  - Software Engineering: DevOps TDD 
+  - Expert: C++ Unity 3D Git 
+  - Proficient: Ruby Rails JavaScript C MVC REST 
+  - Competent: Python HTML 5 SQL Server PostgreSQL TDD 
+  - Beginner: DevOps CSS 
+  - Learning: AngularJS Vue.js Rust 
 
 ## EMPLOYMENT
 
 ### *Partner and Developer*, NorthShield (2016-04 — Present)
 
 
-  - Working remotely on a project from start to finish
-  - Dealing with foreign clients
+  - Working remotely on a project from start to finish;
+  - Dealing with foreign clients.
 
 ### *Co-Founder and Developer*, [Oniric Pixel](http://www.oniricpixel.com.br) (2015-04 — Present)
 
 
-  - Attending public events to expose our game
-  - Project management
-  - Full-fledged game development
+  - Attending public events to expose our game;
+  - Project management;
+  - Full-fledged game development.
 
 ### *Junior Software Architect*, Ministério das Comunicações (2014-02 — 2016-09)
 
 In partnership with Universidade de Brasília.
-  - Defining a reference software architecture
-  - Leading a 3-person agile team on a software development project
-  - Offering support for the IT department
+  - Defining a reference software architecture;
+  - Leading a 3-person agile team on a software development project;
+  - Offering support for the IT department.
 
-
-## PROJECTS
-
-### *Creator*, [Monet](http://monet.herokuapp.com) (??? — Present)
-
-
-Needed to learn Rails in two weeks, and needed a budget management tool. This happened.
-
-### *Creator*, [sdl2-engine](http://caioicy.github.io/sdl2-engine/) (2014-07 — 2015-02)
-
-
-A skeleton project for SDL2/C++ game development. Solidified my SDL2 and C++11 knowledge.
-
-### *Contributor*, [C++ Project Template](http://caioicy.github.io/CPP_Project_Template/) (2014-12 — 2015-01)
-
-
-Forked and evolved, a C++ project template integrated with multiple tools, such as CMake.
 
 
 
@@ -71,6 +54,9 @@ Engineering principles to build software, defining and applying a systematic, di
 
 ### [*r/programming*](https://www.reddit.com/r/programming/)
 Daily reader.
+
+### [*Code Complete*](https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670)
+Excelent reference for clean coding, with great checklists for each subject.
 
 
 

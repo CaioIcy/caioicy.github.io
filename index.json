@@ -2,7 +2,7 @@
   "basics": {
     "name": "Caio Nardelli Maranhão",
     "label": "Software Engineer",
-    "summary": "My interests generally lie on software development, specifically on **game development**. I'm a **C++ enthusiast**, although I now have a soft spot for **web development** through Rails. *I am eager to learn, and know how to do so*.",
+    "summary": "I'm a software engineer with a soft spot for **web** and **game development**, alongside **clean coding**. A **C++ enthusiast**, although I now enjoy the Rails universe quite a bit. *I am eager to learn, and know how to do so*.",
     "email": "caio.nardelli.m@gmail.com"
   },
   "work": [
@@ -11,8 +11,8 @@
       "position": "Partner and Developer",
       "startDate": "2016-04",
       "highlights": [
-        "Working remotely on a project from start to finish",
-        "Dealing with foreign clients"
+        "Working remotely on a project from start to finish;",
+        "Dealing with foreign clients."
       ]
     },
     {
@@ -21,9 +21,9 @@
       "position": "Co-Founder and Developer",
       "startDate": "2015-04",
       "highlights": [
-        "Attending public events to expose our game",
-        "Project management",
-        "Full-fledged game development"
+        "Attending public events to expose our game;",
+        "Project management;",
+        "Full-fledged game development."
       ]
     },
     {
@@ -33,9 +33,9 @@
       "endDate": "2016-09",
       "summary": "In partnership with Universidade de Brasília.",
       "highlights": [
-        "Defining a reference software architecture",
-        "Leading a 3-person agile team on a software development project",
-        "Offering support for the IT department"
+        "Defining a reference software architecture;",
+        "Leading a 3-person agile team on a software development project;",
+        "Offering support for the IT department."
       ]
     }
   ],
@@ -47,50 +47,52 @@
   ],
   "skills": [
     {
-      "name": "Game Development",
+      "name": "Expert",
       "level": "master",
       "keywords": [
         "C++",
         "Unity 3D",
-        "JavaScript",
-        "SDL"
+        "Git"
       ]
     },
     {
-      "name": "Web",
+      "name": "Proficient",
       "level": "advanced",
       "keywords": [
+        "Ruby",
         "Rails",
         "JavaScript",
-        "HTML 5",
-        "CSS",
+        "C",
         "MVC",
         "REST"
       ]
     },
     {
-      "name": "Database",
-      "level": "beginner",
-      "keywords": [
-        "SQL Server",
-        "PostgreSQL",
-        "ActiveRecord"
-      ]
-    },
-    {
-      "name": "Project",
-      "level": "advanced",
-      "keywords": [
-        "Agile",
-        "Git"
-      ]
-    },
-    {
-      "name": "Software Engineering",
+      "name": "Competent",
       "level": "intermediate",
       "keywords": [
-        "DevOps",
+        "Python",
+        "HTML 5",
+        "SQL Server",
+        "PostgreSQL",
         "TDD"
+      ]
+    },
+    {
+      "name": "Beginner",
+      "level": "beginner",
+      "keywords": [
+        "DevOps",
+        "CSS"
+      ]
+    },
+    {
+      "name": "Learning",
+      "level": "learning",
+      "keywords": [
+        "AngularJS",
+        "Vue.js",
+        "Rust"
       ]
     }
   ],

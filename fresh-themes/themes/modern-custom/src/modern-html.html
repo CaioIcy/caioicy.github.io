@@ -104,6 +104,35 @@
 {{#*inline "icon-info"}}<span class="fa fa-lg fa-info"></span>{{/inline}}
 {{> section/info _icon="icon-info" }}
 
+{{! <!--
+  Move on to the EDUCATION section, giving it the same treatment we gave the
+  EMPLOYMENT section.
+--> }}
+
+
+{{#*inline "body-education" }}
+<div>
+<h3>{{#if course}}<em>{{ course }}</em>,{{/if}}
+{{#if url}}
+<a href="{{{ url }}}">{{ institution }}</a>
+{{else}}
+{{ institution }}
+{{/if}}
+</h3>
+{{#if start}}<span class="tenure">{{dateRange .}}</span>{{/if}}
+{{#if title}}
+{{#if start}}| {{/if}}<span class="keywords">{{ title }}</span>
+{{/if}}
+{{{ summary }}}
+{{> highlights }}
+</div>
+{{/inline}}
+
+{{#*inline "icon-education"}}<span class="fa fa-lg fa-mortar-board"></span>{{/inline}}
+
+{{> section/education _icon="icon-education"}}
+
+
 
 {{! <!--
   Okay, let's create a custom SKILLS section with colored skill bars.
@@ -249,35 +278,6 @@ also doesn't render any content.
 {{#*inline "icon-projects"}}<span class="fa fa-lg fa-star"></span>{{/inline}}
 
 {{> section/projects _icon="icon-projects"}}
-
-{{! <!--
-  Move on to the EDUCATION section, giving it the same treatment we gave the
-  EMPLOYMENT section.
---> }}
-
-
-{{#*inline "body-education" }}
-<div>
-<h3>{{#if course}}<em>{{ course }}</em>,{{/if}}
-{{#if url}}
-<a href="{{{ url }}}">{{ institution }}</a>
-{{else}}
-{{ institution }}
-{{/if}}
-</h3>
-{{#if start}}<span class="tenure">{{dateRange .}}</span>{{/if}}
-{{#if title}}
-{{#if start}}| {{/if}}<span class="keywords">{{ title }}</span>
-{{/if}}
-{{{ summary }}}
-{{> highlights }}
-</div>
-{{/inline}}
-
-{{#*inline "icon-education"}}<span class="fa fa-lg fa-mortar-board"></span>{{/inline}}
-
-{{> section/education _icon="icon-education"}}
-
 
 {{! <!--
   Move on to the GOVERNANCE section, giving it the same treatment we gave the
