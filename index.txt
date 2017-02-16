@@ -8,10 +8,10 @@ I'm a software engineer with a soft spot for **web** and **game development**, a
 
 SKILLS -------------------------------------------------------------------------
 
-- Expert: C++ Unity 3D Git 
-- Proficient: Ruby Rails JavaScript C MVC REST 
-- Competent: Python HTML 5 SQL Server PostgreSQL TDD 
-- Beginner: DevOps CSS 
+- Expert: C++ Unity 3D Git Grails 2 
+- Proficient: Ruby Rails JavaScript C MVC REST Java 
+- Competent: Python HTML 5 SQL Server PostgreSQL TDD Gradle 
+- Beginner: CSS Jersey Maven 
 - Learning: AngularJS Vue.js Rust 
 
 EMPLOYMENT ---------------------------------------------------------------------
@@ -29,6 +29,7 @@ Co-Founder and Developer, Oniric Pixel (2015-04 — Present)
 
 Junior Software Architect, Ministério das Comunicações (2014-02 — 2016-09)
 In partnership with Universidade de Brasília.
+- Massive exposure to the Grails environment;
 - Defining a reference software architecture;
 - Leading a 3-person agile team on a software development project;
 - Offering support for the IT department.

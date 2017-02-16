@@ -633,7 +633,7 @@
               <w:caps/>
               <w:spacing w:val="22"/>
             </w:rPr>
-            <w:t>C++  Unity 3D  Git</w:t>
+            <w:t>C++  Unity 3D  Git  Grails 2</w:t>
           </w:r>
         </w:p>
       </w:tc>
@@ -692,7 +692,7 @@
               <w:caps/>
               <w:spacing w:val="22"/>
             </w:rPr>
-            <w:t>Ruby  Rails  JavaScript  C  MVC  REST</w:t>
+            <w:t>Ruby  Rails  JavaScript  C  MVC  REST  Java</w:t>
           </w:r>
         </w:p>
       </w:tc>
@@ -751,7 +751,7 @@
               <w:caps/>
               <w:spacing w:val="22"/>
             </w:rPr>
-            <w:t>Python  HTML 5  SQL Server  PostgreSQL  TDD</w:t>
+            <w:t>Python  HTML 5  SQL Server  PostgreSQL  TDD  Gradle</w:t>
           </w:r>
         </w:p>
       </w:tc>
@@ -810,7 +810,7 @@
               <w:caps/>
               <w:spacing w:val="22"/>
             </w:rPr>
-            <w:t>DevOps  CSS</w:t>
+            <w:t>CSS  Jersey  Maven</w:t>
           </w:r>
         </w:p>
       </w:tc>
@@ -1118,6 +1118,21 @@
       <w:r><w:rPr></w:rPr><w:t>In partnership with Universidade de Brasília.</w:t></w:r>
     </w:p>
 
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Massive exposure to the Grails environment;</w:t></w:r>
+    </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
         <w:pStyle w:val="ListParagraph"/>

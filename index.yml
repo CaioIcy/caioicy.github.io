@@ -47,6 +47,7 @@ employment:
         - Java
         - JavaScript
       highlights:
+        - 'Massive exposure to the Grails environment;'
         - 'Defining a reference software architecture;'
         - 'Leading a 3-person agile team on a software development project;'
         - 'Offering support for the IT department.'
@@ -69,6 +70,7 @@ skills:
         - C++
         - 'Unity 3D'
         - Git
+        - 'Grails 2'
     -
       name: Proficient
       level: advanced
@@ -79,6 +81,7 @@ skills:
         - C
         - MVC
         - REST
+        - Java
     -
       name: Competent
       level: intermediate
@@ -88,12 +91,14 @@ skills:
         - 'SQL Server'
         - PostgreSQL
         - TDD
+        - Gradle
     -
       name: Beginner
       level: beginner
       skills:
-        - DevOps
         - CSS
+        - Jersey
+        - Maven
     -
       name: Learning
       level: learning
