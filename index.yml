@@ -99,6 +99,8 @@ skills:
         - CSS
         - Jersey
         - Maven
+        - Docker
+        - RabbitMQ
     -
       name: Learning
       level: learning
