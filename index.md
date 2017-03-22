@@ -11,7 +11,7 @@ I'm a software engineer with a soft spot for **web** and **game development**, a
   - Expert: C++ Unity 3D Git Grails 2 
   - Proficient: Ruby Rails JavaScript C MVC REST Java 
   - Competent: Python HTML 5 SQL Server PostgreSQL TDD Gradle 
-  - Beginner: CSS Jersey Maven Docker RabbitMQ 
+  - Beginner: CSS Jersey Maven Docker RabbitMQ Django 
   - Learning: AngularJS Vue.js Rust 
 
 ## EMPLOYMENT

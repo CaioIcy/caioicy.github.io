@@ -104,7 +104,7 @@
         "name": "Beginner",
         "level": "beginner",
         "skills": [
-          "CSS", "Jersey", "Maven", "Docker", "RabbitMQ"
+          "CSS", "Jersey", "Maven", "Docker", "RabbitMQ", "Django"
         ]
       },
       {

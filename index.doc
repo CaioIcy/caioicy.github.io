@@ -810,7 +810,7 @@
               <w:caps/>
               <w:spacing w:val="22"/>
             </w:rPr>
-            <w:t>CSS  Jersey  Maven  Docker  RabbitMQ</w:t>
+            <w:t>CSS  Jersey  Maven  Docker  RabbitMQ  Django</w:t>
           </w:r>
         </w:p>
       </w:tc>

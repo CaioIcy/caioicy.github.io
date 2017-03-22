@@ -101,6 +101,7 @@ skills:
         - Maven
         - Docker
         - RabbitMQ
+        - Django
     -
       name: Learning
       level: learning

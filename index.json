@@ -90,7 +90,8 @@
         "Jersey",
         "Maven",
         "Docker",
-        "RabbitMQ"
+        "RabbitMQ",
+        "Django"
       ]
     },
     {
