@@ -692,7 +692,7 @@
               <w:caps/>
               <w:spacing w:val="22"/>
             </w:rPr>
-            <w:t>Ruby  Rails  JavaScript  C  MVC  REST  Java</w:t>
+            <w:t>Ruby  Rails  JavaScript  REST  C  Java</w:t>
           </w:r>
         </w:p>
       </w:tc>
@@ -751,7 +751,7 @@
               <w:caps/>
               <w:spacing w:val="22"/>
             </w:rPr>
-            <w:t>Python  HTML 5  SQL Server  PostgreSQL  TDD  Gradle</w:t>
+            <w:t>Python  HTML 5  SQL Server  PostgreSQL  TDD</w:t>
           </w:r>
         </w:p>
       </w:tc>
@@ -810,66 +810,7 @@
               <w:caps/>
               <w:spacing w:val="22"/>
             </w:rPr>
-            <w:t>CSS  Jersey  Maven  Docker  RabbitMQ  Django</w:t>
-          </w:r>
-        </w:p>
-      </w:tc>
-    </w:tr>
-
-
-    <w:tr wsp:rsidR="00427ECC" wsp:rsidTr="00FD3B33">
-      <w:trPr>
-        <w:trHeight w:val="882"/>
-      </w:trPr>
-      <w:tc>
-        <w:tcPr>
-          <w:tcW w:w="828" w:type="dxa"/>
-          <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-        </w:tcPr>
-        <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
-          <w:r>
-            <w:rPr>
-              <w:noProof/>
-            </w:rPr>
-            <w:pict>
-              <v:rect id="_x0000_s1028" style="position:absolute;left:0;text-align:left;margin-left:20.6pt;margin-top:1.4pt;width:7.15pt;height:38.25pt;z-index:1" fillcolor="#FFFFFF"  strokeweight="0"/>
-            </w:pict>
-          </w:r>
-          <w:r>
-            <w:rPr>
-              <w:noProof/>
-            </w:rPr>
-            <w:pict>
-              <v:rect id="_x0000_s1026" style="position:absolute;left:0;text-align:left;margin-left:20.6pt;margin-top:1.4pt;width:7.15pt;height:38.25pt;z-index:2" fillcolor="#FFFFFF" strokeweight="0"/>
-            </w:pict>
-          </w:r>
-        </w:p>
-      </w:tc>
-      <w:tc>
-        <w:tcPr>
-          <w:tcW w:w="8748" w:type="dxa"/>
-          <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
-        </w:tcPr>
-        <w:p>
-          <w:pPr>
-            <w:spacing w:before="120"/>
-          </w:pPr>
-          <w:r>
-            <w:rPr>
-              <w:sz w:val="24"/>
-              <w:b/>
-              <w:caps/>
-            </w:rPr>
-            <w:t>Learning</w:t>
-          </w:r>
-        </w:p>
-        <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
-          <w:r>
-            <w:rPr>
-              <w:caps/>
-              <w:spacing w:val="22"/>
-            </w:rPr>
-            <w:t>AngularJS  Vue.js  Rust</w:t>
+            <w:t>Rust  CSS  AngularJS  Jersey  Docker  RabbitMQ  Django</w:t>
           </w:r>
         </w:p>
       </w:tc>
@@ -975,7 +916,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Working remotely on a project from start to finish;</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>working remotely;</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -990,7 +931,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Dealing with foreign clients.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>dealing with foreign clients.</w:t></w:r>
     </w:p>
 
   </wx:sub-section>
@@ -1047,7 +988,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Attending public events to expose our game;</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>attending public events for feedback;</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1062,7 +1003,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Project management;</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>project management;</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1077,7 +1018,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Full-fledged game development.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>transitioning from 2D to 2.5/3D.</w:t></w:r>
     </w:p>
 
   </wx:sub-section>
@@ -1115,7 +1056,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>In partnership with Universidade de Brasília.</w:t></w:r>
+      
     </w:p>
 
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
@@ -1131,7 +1072,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Massive exposure to the Grails environment;</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>defining a reference software architecture;</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1146,7 +1087,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Defining a reference software architecture;</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>leading an agile team in a complex project;</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1161,22 +1102,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Leading a 3-person agile team on a software development project;</w:t></w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Offering support for the IT department.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>supporting the IT department.</w:t></w:r>
     </w:p>
 
   </wx:sub-section>
@@ -1184,7 +1110,115 @@
 
 </wx:sub-section>
 
+      <wx:sub-section>
+
+<wx:pBdrGroup>
+  <wx:borders>
+    <wx:top wx:val="solid" wx:bdrwidth="15" wx:space="1" wx:color="EEEEEE"/>
+  </wx:borders>
+  <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00693C5A" wsp:rsidP="00C146CA">
+    <w:pPr>
+      <w:pStyle w:val="Heading1"/>
+      <w:ind w:left="-720"/>      
+    </w:pPr>
+    <w:r>
+      <w:pict>
+        <w:binData w:name="wordml://03000001.png" xml:space="preserve">iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAR1QTFRFv8HEv8HDv8jZv8HGv8rbv8HIv8HOv8zdv8bVv8TOv8TMv8LK08TD1cTD2dDOz8rIw8LDwcLGycrOz9DX0crIw8LEwcHDw8LGycrTx8HD2cjDzcHDw8bQ29zZz8TDxcHDy8TDx8LD3drizdzxz97xzdz/xdTs09zqz+H70+P70+X/0eH/0+Px1eX51+v/3ef11+Hw1en/99jK+drM49rb7dTI7dbK8djM9drO99zO89bK5c7E/9zO79rQ8dTI7drO69zi/efZ/+/X/+HQ///d/+vV8+HT///7+fX5///m9//////q+f///fXx8+vk6+/w9/n/5fH/4//////w7////f/////54f//+/////v1//Hm4+Hq//vw8fv/////A0CiDgAAARBJREFUSMdjiCMRMIxqGNUwqoHaGtw9SNRgxKBBkgZPHkYmL1I0GDMyMmuSoAFoASNOKxiwW4DbCgYcFuC0ggGHBUArtIjU4M0L0cDI4kNQg6+fCR+/ACMMCAoJK/kH4NLgKCIqxogNMIhLBGLTYMyIEzBoY9PgbopTvTJ2P7ibiRGhHtnT2HUwq+AOJXdzTB2sOviC1d1CjJB69IizRNXBqksopp0kUTSwBRHS4Ixmgx4hDVZoflAlpMEaTYMaAQ3BUmga2AlocJGGqJORlYMwOELwa3CVB6ni1A+NC3NTAAdTOH4NNkA1XAahYHaYrSIwYRji12DHyK0eAedF2stjBhOqhqjoCBR+jEMs/UtvAMiRyWLg7gtIAAAAAElFTkSuQmCC</w:binData>
+        <v:shape id="_x0000_i1031" type="#_x0000_t75" style="width:31.5pt;height:31.5pt">
+          <v:imagedata src="wordml://03000001.png" o:title="star-icon"/>
+        </v:shape>
+      </w:pict>
+    </w:r>
+    <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+      <w:t>PROJECTS</w:t>
+    </w:r>
+  </w:p>
+</wx:pBdrGroup>
+
+
+  <wx:sub-section>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:t>, </w:t>
+      </w:r>
+      <w:hlink w:dest="http://github.com/CaioIcy/ggj2016-the_summonerish">
+        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink"/>
+          </w:rPr>
+          <w:t>The Summonerish</w:t>
+        </w:r>
+      </w:hlink>
+      <w:r wsp:rsidR="00EA0B64">
+        <w:tab/>
+      </w:r>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:rPr>
+          <w:rStyle w:val="FromTo"/>
+        </w:rPr>
+        <w:t>2016-01 — 2016-02</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>A random and increasingly difficult rhythm game made for Global Game&lt;br&gt;Jam made by a team of three, with myself as the only programmer.</w:t></w:r>
+    </w:p>
+
+
+  </wx:sub-section>
+
+
+  <wx:sub-section>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:t>, </w:t>
+      </w:r>
       
+        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
+          <w:t>TBD (Online Judge)</w:t>
+        </w:r>
+      
+      <w:r wsp:rsidR="00EA0B64">
+        <w:tab/>
+      </w:r>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:rPr>
+          <w:rStyle w:val="FromTo"/>
+        </w:rPr>
+        <w:t>2016-06 — Present</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>An implementation of a fault tolerant electronic judge capable of&lt;br&gt;withstanding large processing loads. Designed for application on&lt;br&gt;educational contexts that require mass grading, such as programming competitions.</w:t></w:r>
+    </w:p>
+
+
+  </wx:sub-section>
+
+
+</wx:sub-section>
+
       
       <wx:sub-section>
 

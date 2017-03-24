@@ -9,38 +9,45 @@ Tel: +55 (61) 98279 5923
 SKILLS -------------------------------------------------------------------------
 
 - Expert: C++ Unity 3D Git Grails 2 
-- Proficient: Ruby Rails JavaScript C MVC REST Java 
-- Competent: Python HTML 5 SQL Server PostgreSQL TDD Gradle 
-- Beginner: CSS Jersey Maven Docker RabbitMQ Django 
-- Learning: AngularJS Vue.js Rust 
+- Proficient: Ruby Rails JavaScript REST C Java 
+- Competent: Python HTML 5 SQL Server PostgreSQL TDD 
+- Beginner: Rust CSS AngularJS Jersey Docker RabbitMQ Django 
 
 EMPLOYMENT ---------------------------------------------------------------------
 
 Partner and Developer, NorthShield (2016-04 — Present)
 
-- Working remotely on a project from start to finish;
-- Dealing with foreign clients.
+- working remotely;
+- dealing with foreign clients.
 
 Co-Founder and Developer, Oniric Pixel (2015-04 — Present)
 
-- Attending public events to expose our game;
-- Project management;
-- Full-fledged game development.
+- attending public events for feedback;
+- project management;
+- transitioning from 2D to 2.5/3D.
 
 Junior Software Architect, Ministério das Comunicações (2014-02 — 2016-09)
-In partnership with Universidade de Brasília.
-- Massive exposure to the Grails environment;
-- Defining a reference software architecture;
-- Leading a 3-person agile team on a software development project;
-- Offering support for the IT department.
 
+- defining a reference software architecture;
+- leading an agile team in a complex project;
+- supporting the IT department.
+
+
+PROJECTS -----------------------------------------------------------------------
+
+The Summonerish,  (2016-01 — 2016-02)
+
+A random and increasingly difficult rhythm game made for Global Game<br>Jam made by a team of three, with myself as the only programmer.
+
+TBD (Online Judge),  (2016-06 — Present)
+
+An implementation of a fault tolerant electronic judge capable of<br>withstanding large processing loads. Designed for application on<br>educational contexts that require mass grading, such as programming competitions.
 
 
 
 EDUCATION ----------------------------------------------------------------------
 
-Universidade de Brasília (2012-01 — Present)
-Engineering principles to build software, defining and applying a systematic, disciplined and quantifiable approach for the definition, development and maintenance of software.
+Universidade de Brasília (2012-02 — Present)
 
 
 

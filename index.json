@@ -10,8 +10,8 @@
       "position": "Partner and Developer",
       "startDate": "2016-04",
       "highlights": [
-        "Working remotely on a project from start to finish;",
-        "Dealing with foreign clients."
+        "working remotely;",
+        "dealing with foreign clients."
       ]
     },
     {
@@ -20,9 +20,9 @@
       "position": "Co-Founder and Developer",
       "startDate": "2015-04",
       "highlights": [
-        "Attending public events to expose our game;",
-        "Project management;",
-        "Full-fledged game development."
+        "attending public events for feedback;",
+        "project management;",
+        "transitioning from 2D to 2.5/3D."
       ]
     },
     {
@@ -30,19 +30,17 @@
       "position": "Junior Software Architect",
       "startDate": "2014-02",
       "endDate": "2016-09",
-      "summary": "In partnership with Universidade de Brasília.",
       "highlights": [
-        "Massive exposure to the Grails environment;",
-        "Defining a reference software architecture;",
-        "Leading a 3-person agile team on a software development project;",
-        "Offering support for the IT department."
+        "defining a reference software architecture;",
+        "leading an agile team in a complex project;",
+        "supporting the IT department."
       ]
     }
   ],
   "education": [
     {
       "institution": "Universidade de Brasília",
-      "startDate": "2012-01"
+      "startDate": "2012-02"
     }
   ],
   "skills": [
@@ -63,9 +61,8 @@
         "Ruby",
         "Rails",
         "JavaScript",
-        "C",
-        "MVC",
         "REST",
+        "C",
         "Java"
       ]
     },
@@ -77,29 +74,20 @@
         "HTML 5",
         "SQL Server",
         "PostgreSQL",
-        "TDD",
-        "Gradle"
+        "TDD"
       ]
     },
     {
       "name": "Beginner",
       "level": "beginner",
       "keywords": [
+        "Rust",
         "CSS",
+        "AngularJS",
         "Jersey",
-        "Maven",
         "Docker",
         "RabbitMQ",
         "Django"
-      ]
-    },
-    {
-      "name": "Learning",
-      "level": "learning",
-      "keywords": [
-        "AngularJS",
-        "Vue.js",
-        "Rust"
       ]
     }
   ],

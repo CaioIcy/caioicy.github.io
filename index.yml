@@ -15,51 +15,72 @@ employment:
       employer: NorthShield
       position: 'Partner and Developer'
       start: 2016-04
+      custom_summary: 'Full stack web developer with Ruby on Rails.'
       keywords:
-        - Agile
+        - Ruby
         - Rails
         - JavaScript
+        - 'HTML 5'
+        - CSS
         - Heroku
       highlights:
-        - 'Working remotely on a project from start to finish;'
-        - 'Dealing with foreign clients.'
+        - 'working remotely;'
+        - 'dealing with foreign clients.'
     -
       employer: 'Oniric Pixel'
       url: 'http://www.oniricpixel.com.br'
       position: 'Co-Founder and Developer'
       start: 2015-04
+      custom_summary: 'Game designer and programmer.'
       keywords:
         - 'Unity 3D'
+        - 'C#'
       highlights:
-        - 'Attending public events to expose our game;'
-        - 'Project management;'
-        - 'Full-fledged game development.'
+        - 'attending public events for feedback;'
+        - 'project management;'
+        - 'transitioning from 2D to 2.5/3D.'
     -
       employer: 'Ministério das Comunicações'
       position: 'Junior Software Architect'
       start: 2014-02
       end: 2016-09
-      summary: 'In partnership with Universidade de Brasília.'
+      custom_summary: 'In partnership with Universidade de Brasília.'
       keywords:
-        - Agile
-        - PM
         - Grails
         - Java
         - JavaScript
+        - D3.js
       highlights:
-        - 'Massive exposure to the Grails environment;'
-        - 'Defining a reference software architecture;'
-        - 'Leading a 3-person agile team on a software development project;'
-        - 'Offering support for the IT department.'
+        - 'defining a reference software architecture;'
+        - 'leading an agile team in a complex project;'
+        - 'supporting the IT department.'
+projects:
+  -
+    title: 'The Summonerish'
+    url: 'http://github.com/CaioIcy/ggj2016-the_summonerish'
+    start: 2016-01
+    end: 2016-02
+    summary: 'A random and increasingly difficult rhythm game made for Global Game<br>Jam made by a team of three, with myself as the only programmer.'
+    keywords:
+      - 'Unity 3D'
+      - 'C#'
+  -
+    title: 'TBD (Online Judge)'
+    start: 2016-06
+    summary: 'An implementation of a fault tolerant electronic judge capable of<br>withstanding large processing loads. Designed for application on<br>educational contexts that require mass grading, such as programming competitions.'
+    keywords:
+      - C++
+      - Python
+      - RabbitMQ
+      - Docker
+      - PostgreSQL
 education:
-  level: Bachelor
   history:
     -
       institution: 'Universidade de Brasília'
-      course: 'Software Engineering'
+      course: 'Bachelor in Software Engineering'
       url: 'https://unb.br/'
-      start: 2012-01
-      summary: 'Engineering principles to build software, defining and applying a systematic, disciplined and quantifiable approach for the definition, development and maintenance of software.'
+      start: 2012-02
       title: Graduating
 skills:
   sets:
@@ -78,9 +99,8 @@ skills:
         - Ruby
         - Rails
         - JavaScript
-        - C
-        - MVC
         - REST
+        - C
         - Java
     -
       name: Competent
@@ -91,24 +111,17 @@ skills:
         - 'SQL Server'
         - PostgreSQL
         - TDD
-        - Gradle
     -
       name: Beginner
       level: beginner
       skills:
+        - Rust
         - CSS
+        - AngularJS
         - Jersey
-        - Maven
         - Docker
         - RabbitMQ
         - Django
-    -
-      name: Learning
-      level: learning
-      skills:
-        - AngularJS
-        - Vue.js
-        - Rust
 recognition:
   -
     flavor: award

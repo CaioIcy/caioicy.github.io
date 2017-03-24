@@ -120,7 +120,7 @@
 {{ institution }}
 {{/if}}
 </h3>
-{{#if start}}<span class="tenure">{{dateRange .}}</span>{{/if}}
+{{#if start}}<span class="tenure">{{dateRange . 'MMM YYYY'}}</span>{{/if}}
 {{#if title}}
 {{#if start}}| {{/if}}<span class="keywords">{{ title }}</span>
 {{/if}}
@@ -224,20 +224,27 @@ also doesn't render any content.
 -->}}
 
 {{#*inline "body-employment" }}
-<div>
-  <h3><em>{{ position }}</em>,
+<div id="emply">
+  <h3>
+    <em>{{ position }}</em>,
     {{#if url }}
     <a href="{{{ url }}}">{{ employer }}</a>
     {{else}}
     {{ employer }}
     {{/if}}
-    </h3>
-    <span class="tenure">{{dateRange .}}</span>
-    {{#if keywords}}
-    {{#if start}}| {{/if}}<span class="keywords">{{#each keywords}}{{{ . }}} {{/each}}</span>
-    {{/if}}
-  <p>{{{ summary }}}</p>
-  Highlights:
+
+    <span class="c-tenure">{{dateRange . 'MMM YYYY'}}</span>
+  </h3>
+
+  {{{ custom_summary }}}
+
+  {{#if keywords}}
+  <span class="c-keywords">
+    {{#each keywords as |k|}}{{{ k }}}{{#unless @last}}, {{/unless}}  {{/each}}
+  </span>
+  {{/if}}
+
+  Experiences:
   {{> highlights }}
 </div>
 {{/inline}}
@@ -260,17 +267,22 @@ also doesn't render any content.
 
 {{#*inline "body-projects" }}
 <div>
-<h3>{{#if role}}<em>{{camelCase role }}</em>,{{/if}}
-{{#if url}}
-<a href="{{{ url }}}">{{ title }}</a>
-{{else}}
-{{ title }}
-{{/if}}
+<h3>
+  {{#if url}}
+  <a href="{{{ url }}}">{{ title }}</a>
+  {{else}}
+  <em>{{ title }}</em>
+  {{/if}}
+
+  {{#if start}}<span class="c-tenure">{{dateRange . 'MMM YYYY'}}</span>{{/if}}
 </h3>
-{{#if start}}<span class="tenure">{{dateRange .}}</span>{{/if}}
+
 {{#if keywords}}
-{{#if start}}| {{/if}}<span class="keywords">{{#each keywords}}{{{ . }}} {{/each}}</span>
+<span class="c-keywords">
+    {{#each keywords as |k|}}{{{ k }}}{{#unless @last}}, {{/unless}}  {{/each}}
+</span>
 {{/if}}
+
 {{{ summary }}}
 {{> highlights }}
 </div>
@@ -294,7 +306,7 @@ also doesn't render any content.
 {{{ organization }}}
 {{/if}}
 </h3>
-{{#if start}}<span class="tenure">{{dateRange .}}</span>{{/if}}
+{{#if start}}<span class="tenure">{{dateRange . 'MMM YYYY'}}</span>{{/if}}
 {{#if keywords}}
 {{#if start}}| {{/if}}<span class="keywords">{{#each keywords}}{{{ . }}} {{/each}}</span>
 {{/if}}

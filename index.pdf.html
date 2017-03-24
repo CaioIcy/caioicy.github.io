@@ -105,18 +105,15 @@ hr {
   font-size: 75%;
 }
 
+.c-tenure, .c-keywords {
+  float: right;
+  font-size: 75%;
+}
+
 h1 {
   margin: 0;
   font-size: 2.4em;
   text-align: center;
-}
-@media (max-width: 480px) {
-  h1 {
-    font-size: 1.502em;
-  }
-  header #contact {
-    font-size: 0.7506em;
-  }
 }
 
 h2 {
@@ -234,11 +231,6 @@ p {
 .skill-info {
   margin-left: 10px;
 }
-@media (max-width: 480px) {
-  .skill-info {
-    margin-left: 20px;
-  }
-}
 
 .list-unstyled {
   padding-left: 0;
@@ -268,6 +260,24 @@ p {
 
 .res-label {
   font-style: italic;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.502em;
+  }
+  header #contact {
+    font-size: 0.7506em;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  .skill-info {
+    margin-left: 20px;
+  }
+  #main > #container > section {
+    margin-left: 2.7em;
+  }
 }
 </style>
 
@@ -306,12 +316,11 @@ p {
       <span class="fa fa-lg fa-mortar-board"></span>  <h2>education</h2>
     </header>
 <div>
-<h3><em>Software Engineering</em>,
+<h3><em>Bachelor in Software Engineering</em>,
 <a href="https://unb.br/">Universidade de Brasília</a>
 </h3>
-<span class="tenure">2012-01 — Present</span>
+<span class="tenure">Feb 2012 — Present</span>
 | <span class="keywords">Graduating</span>
-<p>Engineering principles to build software, defining and applying a systematic, disciplined and quantifiable approach for the definition, development and maintenance of software.</p>
 
 </div>
 </section>
@@ -351,9 +360,8 @@ p {
                 <span class="label label-keyword">Ruby</span>
                 <span class="label label-keyword">Rails</span>
                 <span class="label label-keyword">JavaScript</span>
-                <span class="label label-keyword">C</span>
-                <span class="label label-keyword">MVC</span>
                 <span class="label label-keyword">REST</span>
+                <span class="label label-keyword">C</span>
                 <span class="label label-keyword">Java</span>
           </div>
         </div>
@@ -370,7 +378,6 @@ p {
                 <span class="label label-keyword">SQL Server</span>
                 <span class="label label-keyword">PostgreSQL</span>
                 <span class="label label-keyword">TDD</span>
-                <span class="label label-keyword">Gradle</span>
           </div>
         </div>
       </li>
@@ -381,25 +388,13 @@ p {
         <div class="skill-info">
           <strong>Beginner</strong>
           <div class="space-top labels">
+                <span class="label label-keyword">Rust</span>
                 <span class="label label-keyword">CSS</span>
+                <span class="label label-keyword">AngularJS</span>
                 <span class="label label-keyword">Jersey</span>
-                <span class="label label-keyword">Maven</span>
                 <span class="label label-keyword">Docker</span>
                 <span class="label label-keyword">RabbitMQ</span>
                 <span class="label label-keyword">Django</span>
-          </div>
-        </div>
-      </li>
-      <li class="card card-nested card-skills">
-        <div class="skill-level" rel="tooltip" title="learning" data-placement="left">
-          <div class="skill-progress learning"></div>
-        </div>
-        <div class="skill-info">
-          <strong>Learning</strong>
-          <div class="space-top labels">
-                <span class="label label-keyword">AngularJS</span>
-                <span class="label label-keyword">Vue.js</span>
-                <span class="label label-keyword">Rust</span>
           </div>
         </div>
       </li>
@@ -421,47 +416,66 @@ p {
       <span class="fa fa-lg fa-building"></span>  <h2>employment</h2>
     </header>
 
-<div>
-  <h3><em>Partner and Developer</em>,
+<div id="emply">
+  <h3>
+    <em>Partner and Developer</em>,
     NorthShield
-    </h3>
-    <span class="tenure">2016-04 — Present</span>
-    | <span class="keywords">Agile Rails JavaScript Heroku </span>
-  <p></p>
-  Highlights:
+
+    <span class="c-tenure">Apr 2016 — Present</span>
+  </h3>
+
+  Full stack web developer with Ruby on Rails.
+
+  <span class="c-keywords">
+    Ruby,   Rails,   JavaScript,   HTML 5,   CSS,   Heroku  
+  </span>
+
+  Experiences:
   <ul>
-    <li>Working remotely on a project from start to finish;</li>
-    <li>Dealing with foreign clients.</li>
+    <li>working remotely;</li>
+    <li>dealing with foreign clients.</li>
   </ul>
 </div>
-<div>
-  <h3><em>Co-Founder and Developer</em>,
+<div id="emply">
+  <h3>
+    <em>Co-Founder and Developer</em>,
     <a href="http://www.oniricpixel.com.br">Oniric Pixel</a>
-    </h3>
-    <span class="tenure">2015-04 — Present</span>
-    | <span class="keywords">Unity 3D </span>
-  <p></p>
-  Highlights:
+
+    <span class="c-tenure">Apr 2015 — Present</span>
+  </h3>
+
+  Game designer and programmer.
+
+  <span class="c-keywords">
+    Unity 3D,   C#  
+  </span>
+
+  Experiences:
   <ul>
-    <li>Attending public events to expose our game;</li>
-    <li>Project management;</li>
-    <li>Full-fledged game development.</li>
+    <li>attending public events for feedback;</li>
+    <li>project management;</li>
+    <li>transitioning from 2D to 2.5/3D.</li>
   </ul>
 </div>
-<div>
-  <h3><em>Junior Software Architect</em>,
+<div id="emply">
+  <h3>
+    <em>Junior Software Architect</em>,
     Ministério das Comunicações
-    </h3>
-    <span class="tenure">2014-02 — 2016-09</span>
-    | <span class="keywords">Agile PM Grails Java JavaScript </span>
-  <p><p>In partnership with Universidade de Brasília.</p>
-</p>
-  Highlights:
+
+    <span class="c-tenure">Feb 2014 — Sep 2016</span>
+  </h3>
+
+  In partnership with Universidade de Brasília.
+
+  <span class="c-keywords">
+    Grails,   Java,   JavaScript,   D3.js  
+  </span>
+
+  Experiences:
   <ul>
-    <li>Massive exposure to the Grails environment;</li>
-    <li>Defining a reference software architecture;</li>
-    <li>Leading a 3-person agile team on a software development project;</li>
-    <li>Offering support for the IT department.</li>
+    <li>defining a reference software architecture;</li>
+    <li>leading an agile team in a complex project;</li>
+    <li>supporting the IT department.</li>
   </ul>
 </div>
 </section>
@@ -472,6 +486,40 @@ p {
 
 
 
+<hr>
+<section id="projects">
+    <header>
+      <span class="fa fa-lg fa-star"></span>  <h2>projects</h2>
+    </header>
+<div>
+<h3>
+  <a href="http://github.com/CaioIcy/ggj2016-the_summonerish">The Summonerish</a>
+
+  <span class="c-tenure">Jan 2016 — Feb 2016</span>
+</h3>
+
+<span class="c-keywords">
+    Unity 3D,   C#  
+</span>
+
+<p>A random and increasingly difficult rhythm game made for Global Game<br>Jam made by a team of three, with myself as the only programmer.</p>
+
+</div>
+<div>
+<h3>
+  <em>TBD (Online Judge)</em>
+
+  <span class="c-tenure">Jun 2016 — Present</span>
+</h3>
+
+<span class="c-keywords">
+    C++,   Python,   RabbitMQ,   Docker,   PostgreSQL  
+</span>
+
+<p>An implementation of a fault tolerant electronic judge capable of<br>withstanding large processing loads. Designed for application on<br>educational contexts that require mass grading, such as programming competitions.</p>
+
+</div>
+</section>
 
 
 
