@@ -1,10 +1,10 @@
 Caio Nardelli Maranhão
 Email: caio.nardelli.m@gmail.com
-
+Tel: +55 (61) 98279 5923
 
 ================================================================================
 
-I'm a software engineer with a soft spot for **web** and **game development**, alongside **clean coding**. A **C++ enthusiast**, although I now enjoy the Rails universe quite a bit. *I am eager to learn, and know how to do so*.
+
 
 SKILLS -------------------------------------------------------------------------
 
@@ -45,16 +45,6 @@ Engineering principles to build software, defining and applying a systematic, di
 
 
 
-
-READING ------------------------------------------------------------------------
-
-"r/programming"
-https://www.reddit.com/r/programming/
-Daily reader.
-
-"Code Complete"
-https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670
-Excelent reference for clean coding, with great checklists for each subject.
 
 
 

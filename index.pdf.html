@@ -22,8 +22,8 @@ main {
 body {
   font-family: 'Helvetica Neue', 'Helvetica', 'Segoe UI', 'Calibri', 'sans-serif';
   font-size: 15px;
-  color: #333;
-  line-height: 1.42857143;
+  color: #272323;
+  line-height: 1.30;
   background-color: #F0F0F0;
   margin: 0;
   padding: 0;
@@ -38,7 +38,7 @@ body.pdf {
 the PDF case, <main> for the HTML case, and style both via an ID. */
 #main {
   background-color: #FFF;
-  margin: 10px;
+  margin: 0px;
   padding: 10px;
   border: 1px solid #E6E6E6;
 }
@@ -48,8 +48,31 @@ body.pdf > #main {
 }
 
 #container > header {
-  padding-top: 6em;
-  padding-bottom: 1em;
+  padding-top: 1em;
+  padding-bottom: 0em;
+}
+
+header {
+  -webkit-column-count: 2;
+     -moz-column-count: 2;
+          column-count: 2;
+
+  -webkit-column-rule-style: solid;
+     -moz-column-rule-style: solid;
+          column-rule-style: solid;
+
+  -webkit-column-rule-width: 1px;
+     -moz-column-rule-width: 1px;
+          column-rule-width: 1px;
+
+  -webkit-column-rule-color: #EEE;
+     -moz-column-rule-color: #EEE;
+          column-rule-color: #EEE;
+}
+
+header #contact {
+  font-size: 1em;
+  text-align: center;
 }
 
 body.pdf #container > header {
@@ -72,10 +95,10 @@ span.fa
 }
 
 hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 8px;
+  margin-bottom: 8px;
   border: 0;
-  border-top: 1px solid #EEE;
+  border-top: 1px solid #DBDBDB;
 }
 
 .tenure, .keywords {
@@ -84,18 +107,29 @@ hr {
 
 h1 {
   margin: 0;
-  font-size: 46px;
+  font-size: 2.4em;
+  text-align: center;
+}
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.502em;
+  }
+  header #contact {
+    font-size: 0.7506em;
+  }
 }
 
 h2 {
   font-size: 24px;
-  color: #BFC1C3;
+  color: #84888C;
   text-transform: uppercase;
   font-weight: normal;
+  margin: 0;
 }
 
 h3 {
-  margin-bottom: 0;
+  margin: 0;
+  margin-top: 8px;
   font-size: 18px;
 }
 
@@ -109,6 +143,20 @@ a:hover {
   text-decoration: underline;
 }
 
+ul{
+  margin: 0;
+}
+
+@media (max-width: 480px) {
+  ul {
+    padding-left: 20px;
+  }
+}
+
+div #emply {
+  padding-top: 5px;
+}
+
 .defunct {
   color: #989898;
   font-weight: bold;
@@ -118,6 +166,9 @@ a:hover {
   font-size: 1.25em;
 }
 
+p {
+  margin: 0;
+}
 
 .label-keyword {
   display: inline-block;
@@ -177,7 +228,7 @@ a:hover {
   background: #428bca;
 }
 .skill-level .skill-progress.master {
-  height: 95%;
+  height: 90%;
   background: #5cb85c;
 }
 .skill-info {
@@ -199,7 +250,7 @@ a:hover {
 }
 
 .space-top {
-    margin-top: 10px;
+    margin-top: 7px;
 }
 
 #container {
@@ -230,25 +281,19 @@ a:hover {
       <header>
 
 
-        <h1>Caio Nardelli Maranhão</h1>
+        <h1 id="name">Caio Nardelli Maranhão</h1>
 
         <div id="contact">
+          <div class="phone"><a>+55 (61) 98279 5923</a></div>
           <div class="email"><a href="mailto:caio.nardelli.m@gmail.com">caio.nardelli.m@gmail.com</a></div>
-          <div class="website"><a href="https://caioicy.github.io">https://caioicy.github.io</a></div>
-          <div class="website"><a href="https://github.com/CaioIcy">https://github.com/CaioIcy</a></div>
+          <div class="website"><a href="https://caioicy.github.io">caioicy.github.io</a></div>
+          <div class="website"><a href="https://github.com/CaioIcy">github.com/CaioIcy</a></div>
         </div>
       </header>
 
 
 
 
-<hr>
-<section id="summary">
-    <header>
-      <span class="fa fa-lg fa-info"></span>  <h2>info</h2>
-    </header>
-    I&#39;m a software engineer with a soft spot for <strong>web</strong> and <strong>game development</strong>, alongside <strong>clean coding</strong>. A <strong>C++ enthusiast</strong>, although I now enjoy the Rails universe quite a bit. <em>I am eager to learn, and know how to do so</em>.
-</section>
 
 
 
@@ -466,14 +511,7 @@ a:hover {
 <ul class="list-unstyled">
 <div>
   <h3>
-    <em>English</em>
-  </h3>
-
-  Native Speaker
-</div>
-<div>
-  <h3>
-    <em>Portuguese</em>
+    <em>English, Portuguese</em>
   </h3>
 
   Native Speaker
@@ -491,24 +529,6 @@ a:hover {
 
 
 
-<hr>
-<section id="reading">
-    <header>
-      <span class="fa fa-lg fa-book"></span>  <h2>reading</h2>
-    </header>
-    <div>
-    <h3><em><a href="https://www.reddit.com/r/programming/">r/programming</a></em></h3>
-      <span class="tenure">Current</span>
-      <p>Daily reader.</p>
-
-    </div>
-    <div>
-    <h3><em><a href="https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670">Code Complete</a></em></h3>
-      <span class="tenure">Current</span>
-      <p>Excelent reference for clean coding, with great checklists for each subject.</p>
-
-    </div>
-</section>
 
       </div>
     </main>

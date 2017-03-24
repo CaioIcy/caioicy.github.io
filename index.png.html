@@ -19,8 +19,8 @@
             body {
               font-family: 'Helvetica Neue', 'Helvetica', 'Segoe UI', 'Calibri', 'sans-serif';
               font-size: 15px;
-              color: #333;
-              line-height: 1.42857143;
+              color: #272323;
+              line-height: 1.30;
               background-color: #F0F0F0;
               margin: 0;
               padding: 0;
@@ -35,7 +35,7 @@
             the PDF case, <main> for the HTML case, and style both via an ID. */
             #main {
               background-color: #FFF;
-              margin: 10px;
+              margin: 0px;
               padding: 10px;
               border: 1px solid #E6E6E6;
             }
@@ -45,8 +45,31 @@
             }
             
             #container > header {
-              padding-top: 6em;
-              padding-bottom: 1em;
+              padding-top: 1em;
+              padding-bottom: 0em;
+            }
+            
+            header {
+              -webkit-column-count: 2;
+                 -moz-column-count: 2;
+                      column-count: 2;
+            
+              -webkit-column-rule-style: solid;
+                 -moz-column-rule-style: solid;
+                      column-rule-style: solid;
+            
+              -webkit-column-rule-width: 1px;
+                 -moz-column-rule-width: 1px;
+                      column-rule-width: 1px;
+            
+              -webkit-column-rule-color: #EEE;
+                 -moz-column-rule-color: #EEE;
+                      column-rule-color: #EEE;
+            }
+            
+            header #contact {
+              font-size: 1em;
+              text-align: center;
             }
             
             body.pdf #container > header {
@@ -69,10 +92,10 @@
             }
             
             hr {
-              margin-top: 20px;
-              margin-bottom: 20px;
+              margin-top: 8px;
+              margin-bottom: 8px;
               border: 0;
-              border-top: 1px solid #EEE;
+              border-top: 1px solid #DBDBDB;
             }
             
             .tenure, .keywords {
@@ -81,18 +104,29 @@
             
             h1 {
               margin: 0;
-              font-size: 46px;
+              font-size: 2.4em;
+              text-align: center;
+            }
+            @media (max-width: 480px) {
+              h1 {
+                font-size: 1.502em;
+              }
+              header #contact {
+                font-size: 0.7506em;
+              }
             }
             
             h2 {
               font-size: 24px;
-              color: #BFC1C3;
+              color: #84888C;
               text-transform: uppercase;
               font-weight: normal;
+              margin: 0;
             }
             
             h3 {
-              margin-bottom: 0;
+              margin: 0;
+              margin-top: 8px;
               font-size: 18px;
             }
             
@@ -106,6 +140,20 @@
               text-decoration: underline;
             }
             
+            ul{
+              margin: 0;
+            }
+            
+            @media (max-width: 480px) {
+              ul {
+                padding-left: 20px;
+              }
+            }
+            
+            div #emply {
+              padding-top: 5px;
+            }
+            
             .defunct {
               color: #989898;
               font-weight: bold;
@@ -115,6 +163,9 @@
               font-size: 1.25em;
             }
             
+            p {
+              margin: 0;
+            }
             
             .label-keyword {
               display: inline-block;
@@ -174,7 +225,7 @@
               background: #428bca;
             }
             .skill-level .skill-progress.master {
-              height: 95%;
+              height: 90%;
               background: #5cb85c;
             }
             .skill-info {
@@ -196,7 +247,7 @@
             }
             
             .space-top {
-                margin-top: 10px;
+                margin-top: 7px;
             }
             
             #container {
@@ -222,25 +273,19 @@
         <main id="main">
             <div id="container">
                 <header>
-                     <h1>Caio Nardelli Maranhão</h1>
+                     <h1 id="name">Caio Nardelli Maranhão</h1>
 
                     <div id="contact">
+                        <div class="phone"><a>+55 (61) 98279 5923</a>
+                        </div>
                         <div class="email"><a href="mailto:caio.nardelli.m@gmail.com">caio.nardelli.m@gmail.com</a>
                         </div>
-                        <div class="website"><a href="https://caioicy.github.io">https://caioicy.github.io</a>
+                        <div class="website"><a href="https://caioicy.github.io">caioicy.github.io</a>
                         </div>
-                        <div class="website"><a href="https://github.com/CaioIcy">https://github.com/CaioIcy</a>
+                        <div class="website"><a href="https://github.com/CaioIcy">github.com/CaioIcy</a>
                         </div>
                     </div>
                 </header>
-                <hr>
-                <section id="summary">
-                    <header> <span class="fa fa-lg fa-info"></span> 
-                         <h2>info</h2>
-
-                    </header>I&#39;m a software engineer with a soft spot for <strong>web</strong> and <strong>game development</strong>,
-                    alongside <strong>clean coding</strong>. A <strong>C++ enthusiast</strong>,
-                    although I now enjoy the Rails universe quite a bit. <em>I am eager to learn, and know how to do so</em>.</section>
                 <hr>
                 <section id="education">
                     <header> <span class="fa fa-lg fa-mortar-board"></span> 
@@ -361,43 +406,39 @@
                          <h2>employment</h2>
 
                     </header>
-                    <div>
+                    <div id="emply">
                          <h3><em>Partner and Developer</em>,
     NorthShield
     </h3>
  <span class="tenure">2016-04 — Present</span>
 | <span class="keywords">Agile Rails JavaScript Heroku </span>
-
-                        <p></p>Highlights:
+Highlights:
                         <ul>
                             <li>Working remotely on a project from start to finish;</li>
                             <li>Dealing with foreign clients.</li>
                         </ul>
                     </div>
-                    <div>
+                    <div id="emply">
                          <h3><em>Co-Founder and Developer</em>,
     <a href="http://www.oniricpixel.com.br">Oniric Pixel</a>
     </h3>
  <span class="tenure">2015-04 — Present</span>
 | <span class="keywords">Unity 3D </span>
-
-                        <p></p>Highlights:
+Highlights:
                         <ul>
                             <li>Attending public events to expose our game;</li>
                             <li>Project management;</li>
                             <li>Full-fledged game development.</li>
                         </ul>
                     </div>
-                    <div>
+                    <div id="emply">
                          <h3><em>Junior Software Architect</em>,
     Ministério das Comunicações
     </h3>
  <span class="tenure">2014-02 — 2016-09</span>
 | <span class="keywords">Agile PM Grails Java JavaScript </span>
 
-                        <p>
-                            <p>In partnership with Universidade de Brasília.</p>
-                        </p>Highlights:
+                        <p>In partnership with Universidade de Brasília.</p>Highlights:
                         <ul>
                             <li>Massive exposure to the Grails environment;</li>
                             <li>Defining a reference software architecture;</li>
@@ -433,33 +474,9 @@
                     <ul class="list-unstyled">
                         <div>
                              <h3>
-    <em>English</em>
+    <em>English, Portuguese</em>
   </h3>
 Native Speaker</div>
-                        <div>
-                             <h3>
-    <em>Portuguese</em>
-  </h3>
-Native Speaker</div>
-                </section>
-                <hr>
-                <section id="reading">
-                    <header> <span class="fa fa-lg fa-book"></span> 
-                         <h2>reading</h2>
-
-                    </header>
-                    <div>
-                         <h3><em><a href="https://www.reddit.com/r/programming/">r/programming</a></em></h3>
- <span class="tenure">Current</span>
-
-                        <p>Daily reader.</p>
-                    </div>
-                    <div>
-                         <h3><em><a href="https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670">Code Complete</a></em></h3>
- <span class="tenure">Current</span>
-
-                        <p>Excelent reference for clean coding, with great checklists for each subject.</p>
-                    </div>
                 </section>
             </div>
         </main>

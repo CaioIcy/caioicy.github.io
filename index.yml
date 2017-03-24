@@ -3,12 +3,12 @@ meta:
   version: 0.4.0
 name: 'Caio Nardelli Maranhão'
 contact:
-  website1: 'https://caioicy.github.io'
-  website2: 'https://github.com/CaioIcy'
+  phone: '+55 (61) 98279 5923'
+  website1: caioicy.github.io
+  website1_href: 'https://caioicy.github.io'
+  website2: github.com/CaioIcy
+  website2_href: 'https://github.com/CaioIcy'
   email: caio.nardelli.m@gmail.com
-info:
-  label: 'Software Engineer'
-  brief: 'I''m a software engineer with a soft spot for **web** and **game development**, alongside **clean coding**. A **C++ enthusiast**, although I now enjoy the Rails universe quite a bit. *I am eager to learn, and know how to do so*.'
 employment:
   history:
     -
@@ -120,19 +120,5 @@ recognition:
     summary: 'Classified to the Brazilian Regional Finals as a Reserve Contestant.'
 languages:
   -
-    language: English
+    language: 'English, Portuguese'
     level: 'Native Speaker'
-  -
-    language: Portuguese
-    level: 'Native Speaker'
-reading:
-  -
-    title: r/programming
-    flavor: website
-    url: 'https://www.reddit.com/r/programming/'
-    summary: 'Daily reader.'
-  -
-    title: 'Code Complete'
-    flavor: book
-    url: 'https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670'
-    summary: 'Excelent reference for clean coding, with great checklists for each subject.'

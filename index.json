@@ -1,8 +1,7 @@
 {
   "basics": {
     "name": "Caio Nardelli Maranhão",
-    "label": "Software Engineer",
-    "summary": "I'm a software engineer with a soft spot for **web** and **game development**, alongside **clean coding**. A **C++ enthusiast**, although I now enjoy the Rails universe quite a bit. *I am eager to learn, and know how to do so*.",
+    "phone": "+55 (61) 98279 5923",
     "email": "caio.nardelli.m@gmail.com"
   },
   "work": [
@@ -116,11 +115,7 @@
   ],
   "languages": [
     {
-      "language": "English",
-      "level": "Native Speaker"
-    },
-    {
-      "language": "Portuguese",
+      "language": "English, Portuguese",
       "level": "Native Speaker"
     }
   ]
