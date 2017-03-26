@@ -1189,11 +1189,14 @@
       <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
         <w:t>, </w:t>
       </w:r>
-      
+      <w:hlink w:dest="https://github.com/BROnlineJudge">
         <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
-          <w:t>TBD (Online Judge)</w:t>
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink"/>
+          </w:rPr>
+          <w:t>BROJ (BR Online Judge)</w:t>
         </w:r>
-      
+      </w:hlink>
       <w:r wsp:rsidR="00EA0B64">
         <w:tab/>
       </w:r>

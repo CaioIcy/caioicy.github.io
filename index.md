@@ -43,7 +43,7 @@ Tel: +55 (61) 98279 5923
 
 A random and increasingly difficult rhythm game made for Global Game<br>Jam made by a team of three, with myself as the only programmer.
 
-### **, TBD (Online Judge) (2016-06 — Present)
+### **, [BROJ (BR Online Judge)](https://github.com/BROnlineJudge) (2016-06 — Present)
 
 
 An implementation of a fault tolerant electronic judge capable of<br>withstanding large processing loads. Designed for application on<br>educational contexts that require mass grading, such as programming competitions.

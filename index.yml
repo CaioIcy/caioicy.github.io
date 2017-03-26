@@ -65,7 +65,8 @@ projects:
       - 'Unity 3D'
       - 'C#'
   -
-    title: 'TBD (Online Judge)'
+    title: 'BROJ (BR Online Judge)'
+    url: 'https://github.com/BROnlineJudge'
     start: 2016-06
     summary: 'An implementation of a fault tolerant electronic judge capable of<br>withstanding large processing loads. Designed for application on<br>educational contexts that require mass grading, such as programming competitions.'
     keywords:
