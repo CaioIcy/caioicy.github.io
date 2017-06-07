@@ -1,0 +1,8 @@
+body {
+  background-color: #00FF00;
+}
+
+/* Typical page borders are awkward when rendered to PDF. */
+body.pdf {
+  background-color: #00FF00;
+}

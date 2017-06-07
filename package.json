@@ -1,0 +1,23 @@
+{
+  "name": "caioicy.github.io",
+  "version": "1.0.0",
+  "description": "Using [HackMyResume](http://please.hackmyresume.com/).",
+  "main": "index.js",
+  "dependencies": {
+    "hackmyresume": "^1.9.0-beta"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "hmr": "hackmyresume"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaioIcy/caioicy.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaioIcy/caioicy.github.io/issues"
+  },
+  "homepage": "https://github.com/CaioIcy/caioicy.github.io#readme"
+}
