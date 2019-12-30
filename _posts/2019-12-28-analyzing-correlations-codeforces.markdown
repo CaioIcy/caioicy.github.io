@@ -1,16 +1,13 @@
 ---
 layout: post
 title: Analyzing correlations of Codeforce users and their ratings
-date: 2019-12-29 12:00:00 +0000
+date: 2019-12-28 12:00:00 +0000
 description: While browsing Codeforces I noticed that most high-rated users had seemingly better results in the beginning of their participation than most average-rated users
 img: #cf-icon.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [codeforces, datascience, statistics, python]
 ---
 
-[Originally posted to DEV.to](https://dev.to/caioicy/analyzing-correlations-of-codeforces-users-and-their-ratings-41no)
-
-----
 A social network and platform for competitive programming, [Codeforces](https://codeforces.com) is a popular place for both beginners and masters alike. Users can participate in regularly held contests to climb the ladder and increase their rating.
 
 While not a regular participant [myself](https://codeforces.com/profile/caioicy), I have always been involved in competitive programming through my former university and friends made therein.

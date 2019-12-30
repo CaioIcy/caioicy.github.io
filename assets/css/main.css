@@ -101,6 +101,7 @@ a {
   /* 1 */
   -webkit-text-decoration-skip: objects;
   /* 2 */
+  color: #55c6e8;
 }
 
 /**
@@ -774,8 +775,8 @@ html {
 
 body {
   font-family: 'Lato', sans-serif;
-  color: #515151;
-  background-color: #fbfbfb;
+  color: #fff;
+  background-color: #0d1219;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -788,7 +789,9 @@ h1 {
 img {
   max-width: 100%;
   vertical-align: middle;
-  display: inline-block;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img + em {
@@ -889,7 +892,7 @@ table tfoot td {
 }
 
 .post, .article-page {
-  background-color: #fff;
+  background-color: #1c2938;
 }
 
 ::-moz-selection {
@@ -933,7 +936,7 @@ table tfoot td {
   width: 240px;
   height: 100%;
   padding: 20px 10px;
-  background-color: #ffffff;
+  background-color: #1c2938;
 }
 
 .about {
@@ -948,7 +951,7 @@ table tfoot td {
   -webkit-border-radius: 100%;
           border-radius: 100%;
   overflow: hidden;
-  background-color: #333030;
+  background-color: #6df3f3;
 }
 
 .about img {
@@ -975,7 +978,7 @@ table tfoot td {
   padding-bottom: 15px;
   font-size: 16px;
   text-transform: uppercase;
-  color: #333030;
+  color: #ebebeb;
   font-weight: 700;
 }
 
@@ -992,7 +995,7 @@ table tfoot td {
   height: 7px;
   -webkit-border-radius: 100%;
           border-radius: 100%;
-  background-color: #515151;
+  background-color: #6df3f3;
 }
 
 .about p {
@@ -1023,7 +1026,7 @@ table tfoot td {
 
 .contact .contact-title {
   position: relative;
-  color: #333030;
+  color: #6df3f3;
   font-weight: 400;
   font-size: 12px;
   margin: 0 0 5px;
@@ -1043,7 +1046,7 @@ table tfoot td {
   position: absolute;
   top: 50%;
   left: 0;
-  background-color: #515151;
+  background-color: #6df3f3;
 }
 
 .contact .contact-title::after {
@@ -1058,7 +1061,7 @@ table tfoot td {
   position: absolute;
   top: 50%;
   right: 0;
-  background-color: #515151;
+  background-color: #6df3f3;
 }
 
 .contact ul {
@@ -1078,7 +1081,7 @@ table tfoot td {
 }
 
 .contact ul li a {
-  color: #515151;
+  color: #6df3f3;
   display: block;
   padding: 5px;
   font-size: 18px;
@@ -1088,7 +1091,7 @@ table tfoot td {
 }
 
 .contact ul li a:hover {
-  color: #333030;
+  color: #6df3f3;
   -webkit-transform: scale(1.2);
       -ms-transform: scale(1.2);
           transform: scale(1.2);
@@ -1132,8 +1135,8 @@ footer .copyright {
   -webkit-transform: translate(0px, -2px);
       -ms-transform: translate(0px, -2px);
           transform: translate(0px, -2px);
-  -webkit-box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
-          box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
+  -webkit-box-shadow: 0 15px 45px -10px rgba(100, 160, 255, 0.2);
+          box-shadow: 0 15px 45px -10px rgba(100, 160, 255, 0.2);
 }
 
 .post .post-thumbnail {
@@ -1153,18 +1156,19 @@ footer .copyright {
 .post .post-content .post-date,
 .post .post-content .post-words {
   font-size: 12px;
+  color: #666;
 }
 
 .post .post-content .post-title {
   margin: 0 0 10px;
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .post .post-content .post-title a {
   font-family: 'PT Serif', serif;
   text-decoration: none;
-  color: #263959;
+  color: #6df3f3;
 }
 
 .post .post-content p {
@@ -1208,6 +1212,7 @@ a.newer-posts:hover {
   font-weight: 400;
   margin: 0 0 10px;
   line-height: 1.3;
+  color: #6df3f3;
 }
 
 .header-page .page-date {
@@ -1241,6 +1246,12 @@ a.newer-posts:hover {
   font-weight: 700;
   text-transform: uppercase;
   font-size: 10px;
+}
+
+.article-page figcaption {
+  text-align: center;
+  color: #999;
+  font-style: italic;
 }
 
 .page-cover-image .page-image {
@@ -1297,9 +1308,10 @@ a.newer-posts:hover {
   font-size: 10px;
   padding: 5px 10px;
   margin-left: 5px;
-  color: #263959;
+  color: #ebebeb;
   text-transform: uppercase;
   border: 1px solid #263959;
+  background-color: #0d1219;
 }
 
 .page-footer .page-tag a:hover {
@@ -1408,7 +1420,7 @@ a.newer-posts:hover {
             justify-content: space-between;
     width: 100%;
     padding: 10px;
-    background-color: #ffffff;
+    background-color: #1c2938;
     -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
             box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
   }
