@@ -1,8 +1,8 @@
-# Resume / CV
+# caionardelli.tech
 
-Using [HackMyResume](http://please.hackmyresume.com/).
+Access it here: [caionardelli.tech](https://www.caionardelli.tech)
 
-```
-$ npm install
-$ npm run hmr -- BUILD ./fresh/resume.json TO ./index.all -t ./fresh-themes/themes/modern-custom/
-```
+## License
+
+Forked from [artemsheludko/flexible-jekyll](https://github.com/artemsheludko/flexible-jekyll)
+GNU General Public License v3.0

@@ -1,0 +1,59 @@
+I"&<p><a href="https://dev.to/caioicy/analyzing-correlations-of-codeforces-users-and-their-ratings-41no">Originally posted to DEV.to</a></p>
+
+<hr />
+<p>A social network and platform for competitive programming, <a href="https://codeforces.com">Codeforces</a> is a popular place for both beginners and masters alike. Users can participate in regularly held contests to climb the ladder and increase their rating.</p>
+
+<p>While not a regular participant <a href="https://codeforces.com/profile/caioicy">myself</a>, I have always been involved in competitive programming through my former university and friends made therein.</p>
+
+<p>Recently I was browsing the website and noticed that most high-rated users had seemingly better results in the beginning of their participation than most average-rated users.</p>
+
+<p><img src="https://thepracticaldev.s3.amazonaws.com/i/6ok5xaaolerv2i5txkkj.png" alt="High-rated example" /></p>
+<figcaption>Rating over time for high-rated user Benq</figcaption>
+
+<hr />
+<h2 id="codeforces-api">Codeforces API</h2>
+
+<p>Wondering if this perception could be backed by data, I decided to see if there were any interesting statistics to be found through <a href="https://codeforces.com/apiHelp">Codeforces’ API</a>, using Python and lovely scientific packages like <a href="https://pandas.pydata.org/">pandas</a>, <a href="https://numpy.org/">numpy</a>, <a href="https://www.scipy.org/">scipy</a> and <a href="https://matplotlib.org/">matplotlib</a>.</p>
+
+<p>With <a href="https://codeforces.com/apiHelp/methods#user.ratedList">user.ratedList</a> I gathered a list of all rated users, and with <a href="https://codeforces.com/apiHelp/methods#user.rating">user.rating</a> I gathered every rating change data for each user. As a side note, I locally cached these responses to avoid making these 30k requests over and over again.</p>
+
+<p>The code used for this can be found here: <a href="https://github.com/CaioIcy/codeforces-analysis">CaioIcy/codeforces-analysis</a></p>
+
+<hr />
+<h2 id="visualization">Visualization</h2>
+
+<p>To understand if there was any merit to my initial hypothesis I plotted every user who had ever reached the <a href="https://codeforces.com/help#q8">first division</a> (max rating &gt;= 1900), with the x-axis being a user’s maximum rating and the y-axis being the number of contests participated in order to reach div1 for the first time:</p>
+
+<p><img src="https://thepracticaldev.s3.amazonaws.com/i/4jqlggjuigmh9la137s6.png" alt="scatter" /></p>
+<figcaption>Number of contests to reach div1 x Max rating</figcaption>
+
+<p>Interesting!</p>
+
+<p>By glancing at the scatter plot there seems to be a correlation. Out of curiosity I searched for ways to measure just how correlated two variables really are, and landed on <a href="https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient">Spearman’s rank correlation coefficient</a>. Using <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.spearmanr.html">scipy’s spearmanr</a> we have about <code class="highlighter-rouge">-0.21</code> for a correlation coefficient which means there is an observable correlation, albeit moderate, as seen in the table below:</p>
+
+<p><img src="https://thepracticaldev.s3.amazonaws.com/i/6c3wr70evj2zqypkff5f.png" alt="Interpretation of correlation coeficient" /></p>
+<figcaption>Reading the correlation coefficient. Excerpt from Nonparametric Statistics for Non-statisticians: A Step-by-Step Approach</figcaption>
+
+<p>To have another perspective on the data, I split the users into buckets based on their maximum rating to be able to visualize the data in a less cluttered way than the scatter plot:</p>
+
+<p><img src="https://thepracticaldev.s3.amazonaws.com/i/hfbwg6gv8jncvlxrgvvl.png" alt="misc" /></p>
+
+<hr />
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Indeed users of certain rating ranges had usually slightly better performances in their early contests when compared to lower rating ranges, but why? Well, I don’t know! There could be a myriad of reasons, and I would like to hear what <strong>you</strong> think!</p>
+
+<p>And remember, if you blasted through your early contests in Codeforces, it does not mean that you will have a breezy time moving forward, keep studying:</p>
+
+<p><img src="https://imgs.xkcd.com/comics/correlation.png" alt="xkcd" /></p>
+<figcaption>Relevant XKCD</figcaption>
+
+<p>Thank you for reading!</p>
+
+<hr />
+<h3 id="references">References</h3>
+
+<p><a href="https://statistics.laerd.com/statistical-guides/spearmans-rank-order-correlation-statistical-guide.php">Spearman’s Rank-Order Correlation</a><br />
+<a href="https://machinelearningmastery.com/how-to-calculate-nonparametric-rank-correlation-in-python/">How to Calculate Nonparametric Rank Correlation in Python</a><br />
+<a href="https://amzn.com/047045461X/">Nonparametric Statistics for Non-statisticians: A Step-by-Step Approach</a></p>
+:ET
