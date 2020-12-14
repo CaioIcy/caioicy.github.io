@@ -1,6 +1,6 @@
-# caionardelli.tech
+# caioicy.github.io
 
-Access it here: [caionardelli.tech](https://www.caionardelli.tech)
+Access it here: [caioicy.github.io](https://caioicy.github.io)
 
 ## License
 
